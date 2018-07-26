@@ -1,0 +1,973 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ABS	foundation/BaseDefine.h	8;"	d
+AddCandiRoot	bst_header.h	/^  void AddCandiRoot (NodeType * node ) {$/;"	f	class:BstTree
+AddOneNode	bst_sub1.cxx	/^BstTree::AddOneNode ( unsigned i , double x, double y, $/;"	f	class:BstTree
+AddTempNode	bst_header.h	/^  void AddTempNode (NodeType * node ) {$/;"	f	class:BstTree
+AddTreeNode	bst_header.h	/^  void AddTreeNode ( NodeType * node ) {$/;"	f	class:BstTree
+All_Top	bst.cxx	/^int All_Top = NO;$/;"	v
+AreaSetType	bst_header.h	/^class AreaSetType {$/;"	c
+AreaType	bst_header.h	/^class AreaType {$/;"	c
+Area_compare_inc	bst.cxx	/^int Area_compare_inc(const void  *p1, const void  *q1) {$/;"	f
+BME_MODE	bst_header.h	67;"	d
+BME_merging_cost	bst.cxx	/^double BME_merging_cost(NodeType *node_L, NodeType *node_R) {$/;"	f
+BOTTOM	bst_header.h	74;"	d
+BST_DME	bst.cxx	/^BST_DME::BST_DME ($/;"	f	class:BST_DME
+BST_DME	bstdme.h	/^class BST_DME $/;"	c
+BST_GenTestcase	bstdme.h	/^class BST_GenTestcase {$/;"	c
+BST_Mode	bst.cxx	/^int BST_Mode = BME_MODE;$/;"	v
+BSTs_at_level	bst.cxx	/^void  BSTs_at_level(int show_info, int L) {$/;"	f	file:
+BUCKET_CAPACITY	bst_header.h	90;"	d
+Bal_Pt	bst.cxx	/^PointType Bal_Pt[2][2];  $/;"	v
+Bal_Pt_not_on_line	bst_sub1.cxx	/^void Bal_Pt_not_on_line(PointType *pt0, PointType *pt1, int delay_id,$/;"	f
+Balance_of_line	bst_sub1.cxx	/^void Balance_of_line(PointType *pt0, PointType *pt1, int delay_id,$/;"	f
+Best_Pair	bst.cxx	/^PairType *Best_Pair;$/;"	v
+BstTree	bst.cxx	/^BstTree::BstTree ($/;"	f	class:BstTree
+BstTree	bst_header.h	/^class BstTree {$/;"	c
+Bucket	bst.cxx	/^BucketType **Bucket;$/;"	v
+BucketType	bst_header.h	/^} BucketType;$/;"	t	typeref:struct:buckettype
+BufferArea	bst_sub3.cxx	/^int BufferArea[2];$/;"	v
+Buffered	bst.cxx	/^int Cluster_id[MAX_N_NODES], *Buffered;$/;"	v
+BuildTrr	bst.cxx	/^BstTree::BuildTrr ( unsigned n ) {$/;"	f	class:BstTree
+CC	Makefile	/^CC = g++  -Wall $/;"	m
+CFLAGS	Makefile	/^CFLAGS= -g $/;"	m
+CHECK	bst.cxx	/^int CHECK = NO; $/;"	v
+CLEANOBJECT	Makefile	/^CLEANOBJECT= $(OBJECT)  $(LIB_OBJECT)$/;"	m
+CPU_PER_MINUTE	Time.cxx	11;"	d	file:
+CPU_PER_MINUTE	facility.cxx	20;"	d	file:
+CPU_PER_SECOND	Time.cxx	10;"	d	file:
+CPU_PER_SECOND	facility.cxx	19;"	d	file:
+C_buffer	bst.cxx	/^double C_buffer= 50.0e-15*PUCAP_SCALE;$/;"	v
+CandiRoot	bst.cxx	/^vector <NodeType > Node, CandiRoot, TempNode;$/;"	v
+Capac	bst.cxx	/^double *Capac;$/;"	v
+Center_ms	bst_sub2.cxx	/^TrrType Center_ms;$/;"	v
+Cluster	bst.cxx	/^ClusterType *Cluster;$/;"	v
+ClusterDelay	bst.cxx	/^double MaxClusterDelay, *ClusterDelay;$/;"	v
+ClusterDelay	bst_header.h	/^  double ClusterDelay;$/;"	m	class:AreaType
+ClusterType	bst_header.h	/^} ClusterType;$/;"	t	typeref:struct:clustertype
+Cluster_id	bst.cxx	/^int Cluster_id[MAX_N_NODES], *Buffered;$/;"	v
+Cmode	bst.cxx	/^int Cmode = 0;$/;"	v
+CompareArea	IME_code.cxx	/^int CompareArea(const void *p, const void *q) {$/;"	f
+ConstructTree	bst.cxx	/^BST_DME::ConstructTree( ) {$/;"	f	class:BST_DME
+ConstructTree	bst.cxx	/^BstTree::ConstructTree( ) {$/;"	f	class:BstTree
+CopyPolygonFrom	IME_code.cxx	/^static void CopyPolygonFrom(AreaSetType *result, AreaSetType *stair) {$/;"	f	file:
+CopyRegionFrom	IME_code.cxx	/^static void CopyRegionFrom(AreaType *result, AreaType *stair) {$/;"	f	file:
+Cost_Function	bst.cxx	/^double Cost_Function = 1; $/;"	v
+Ctrr	bst_header.h	/^  const TrrType & Ctrr () const {$/;"	f	class:BstTree
+Curr_Npoints	bst.cxx	/^static int Curr_Npoints ;$/;"	v	file:
+DelayModelType	bstdme.h	/^  enum DelayModelType $/;"	g	class:BST_DME
+Delay_buffer	bst.cxx	/^double Delay_buffer = 100e-12*PUCAP_SCALE;$/;"	v
+Diameter	foundation/Trr.h	/^  NN Diameter () const {$/;"	f	class:F_Trr
+Dynamic_Selection	bst.cxx	/^int Dynamic_Selection = NO;   \/* no dynamic topology change  *\/$/;"	v
+EE	bst_sub3.cxx	21;"	d	file:
+ELMORE	bst_header.h	65;"	d
+ELMOREMODEL	bstdme.h	/^      ELMOREMODEL , $/;"	e	enum:BST_DME::DelayModelType
+EUCLIDEAN	bst_header.h	95;"	d
+EdgeLength	bst.cxx	/^vector<double> EdgeLength, StubLength;$/;"	v
+ElmoreDelayModel	bst_header.h	/^  bool   ElmoreDelayModel () const {$/;"	f	class:BstTree
+Enclose	foundation/MyInterval.h	/^    void Enclose (  NN n) {$/;"	f	class:F_Interval
+Enclose	foundation/MyInterval.h	/^    void Enclose ( const F_Interval< NN, NNDD,DOCHECK>& p ) {$/;"	f	class:F_Interval
+Enclose	foundation/Trr.h	/^  void Enclose ( const F_Trr &b ) {$/;"	f	class:F_Trr
+ErrCorrection	foundation/Trr.h	/^  void ErrCorrection ( ) {$/;"	f	class:F_Trr
+ExG_DME	bst.cxx	/^int ExG_DME (int n_trees, int v, int show_info) {$/;"	f
+ExG_DME_memory_allocation	bst_sub1.cxx	/^void ExG_DME_memory_allocation() {$/;"	f
+Ex_DME	bst.cxx	/^int  Ex_DME () {$/;"	f	file:
+Ex_DME_memory_allocation	bst_sub1.cxx	/^void Ex_DME_memory_allocation() {$/;"	f
+Ex_DME_memory_allocation_sub	bst_sub1.cxx	/^void Ex_DME_memory_allocation_sub() {$/;"	f
+Expand_Size	bst.cxx	/^int Expand_Size = 3;$/;"	v
+FAST	bst_header.h	43;"	d
+FLAT	bst_header.h	86;"	d
+FUZZ	foundation/BaseDefine.h	7;"	d
+F_Box	foundation/MyBox.h	/^        F_Box (const F_Coord<NN,NNDD,CK>& p) {$/;"	f	class:F_Box
+F_Box	foundation/MyBox.h	/^        F_Box (void) {}        \/\/ Empty ranges$/;"	f	class:F_Box
+F_Box	foundation/MyBox.h	/^  class F_Box$/;"	c
+F_Coord	foundation/Coordinate.h	/^        F_Coord (NN  x, NN  y ) {$/;"	f	class:F_Coord
+F_Coord	foundation/Coordinate.h	/^        F_Coord (const F_Coord& p2) {$/;"	f	class:F_Coord
+F_Coord	foundation/Coordinate.h	/^  class F_Coord$/;"	c
+F_Interval	foundation/MyInterval.h	/^    F_Interval ( NN a) { m_bound[Low] = a; m_bound[High] = a; }$/;"	f	class:F_Interval
+F_Interval	foundation/MyInterval.h	/^    F_Interval ( NN a,  NN b) {$/;"	f	class:F_Interval
+F_Interval	foundation/MyInterval.h	/^    F_Interval (const F_Interval& x) {$/;"	f	class:F_Interval
+F_Interval	foundation/MyInterval.h	/^    F_Interval (void) { m_bound[Low] = 1; m_bound[High] = 0; }$/;"	f	class:F_Interval
+F_Interval	foundation/MyInterval.h	/^  class F_Interval {$/;"	c
+F_Point	foundation/Coordinate.h	/^      F_Point () {$/;"	f	class:F_Point
+F_Point	foundation/Coordinate.h	/^    class F_Point {$/;"	c
+F_Trr	foundation/Trr.h	/^    class F_Trr$/;"	c
+F_Trr	foundation/Trr.h	/^  F_Trr ( NN x1, NN x2, NN y1, NN y2 ) : xlow(x1),xhi(x2),ylow(y1), yhi(y2) {$/;"	f	class:F_Trr
+F_Trr	foundation/Trr.h	/^  F_Trr ( const F_Point<NN, NNDD, DOCHECK>  &p, NN r ) {$/;"	f	class:F_Trr
+F_Trr	foundation/Trr.h	/^  F_Trr () {$/;"	f	class:F_Trr
+FixedTopology	bst_header.h	/^  bool FixedTopology () const {$/;"	f	class:BstTree
+Fms_Pt	bst.cxx	/^PointType  Fms_Pt[2][2];   \/* feasible merging section on JR *\/$/;"	v
+Gamma	bst.cxx	/^double Last_Time, Gamma=1;$/;"	v
+GenerateTestcase	bst_sub3.cxx	/^BST_GenTestcase::GenerateTestcase ( unsigned i ) {$/;"	f	class:BST_GenTestcase
+GetCandiRoot	bst_header.h	/^  NodeType * GetCandiRoot ( unsigned i ) {$/;"	f	class:BstTree
+GetTempNode	bst_header.h	/^  NodeType * GetTempNode ( unsigned i ) {$/;"	f	class:BstTree
+HORIZONTAL	bst_header.h	84;"	d
+HYBRID_MODE	bst_header.h	69;"	d
+H_	bst_header.h	40;"	d
+Hierachy_Cluster_id	bst.cxx	/^int Hierachy_Cluster_id[MAX_N_NODES];$/;"	v
+High	foundation/BiStates.h	/^        High = 1$/;"	e	enum:LowHigh
+IME_MODE	bst_header.h	68;"	d
+IME_mergeNode	bst.cxx	/^void IME_mergeNode(NodeType *node, NodeType *node_L, NodeType *node_R, int b1, int b2) {$/;"	f
+IME_mergeNode_BS2	bst.cxx	/^void IME_mergeNode_BS2(AreaType *area_L, AreaType *area_R,int *n,int i,int j,$/;"	f
+IME_mergeNode_sub1	bst.cxx	/^int IME_mergeNode_sub1(NodeType *node_L, NodeType *node_R, int b1, int b2) {$/;"	f
+IME_mergeNode_sub3	bst.cxx	/^void IME_mergeNode_sub3(AreaType *area_L, AreaType *area_R, int *n_tmparea, $/;"	f
+IME_mergeNode_sub4	bst.cxx	/^void IME_mergeNode_sub4(AreaType *a1, AreaType *area_R, int *n_tmparea, $/;"	f
+IME_merging_cost	bst.cxx	/^double IME_merging_cost(NodeType *node_L, NodeType *node_R) {$/;"	f
+INSIDE	bst_header.h	77;"	d
+In_Tree	bst_sub3.cxx	/^int *In_Tree;$/;"	v
+Initialize	foundation/Trr.h	/^  void Initialize ( ) {$/;"	f	class:F_Trr
+Irredundant	IME_code.cxx	/^void Irredundant(AreaSetType *stair) {$/;"	f
+IsEmpty	foundation/MyInterval.h	/^    IsEmpty (void) const {$/;"	f	class:F_Interval
+IsEmpty	foundation/Trr.h	/^  bool IsEmpty ( ) const {$/;"	f	class:F_Trr
+IsEnclose	foundation/MyInterval.h	/^    IsEnclose ( NN n) const {$/;"	f	class:F_Interval
+IsEnclose	foundation/MyInterval.h	/^    IsEnclose (const F_Interval< NN, NNDD,DOCHECK>& p) const {$/;"	f	class:F_Interval
+IsPoint	foundation/MyInterval.h	/^    IsPoint (void) const {$/;"	f	class:F_Interval
+JR	bst.cxx	/^PointType  JR[2][MAX_TURN_PTS];$/;"	v
+JR_a_line	bst.cxx	/^int JR_a_line() {$/;"	f
+JR_corner	bst.cxx	/^PointType  JR_corner[2];$/;"	v
+JR_corner_exist	bst_sub1.cxx	/^int JR_corner_exist(int i) {$/;"	f
+JS	bst.cxx	/^PointType  JS[2][MAX_TURN_PTS];$/;"	v
+JS_line_type	bst_sub1.cxx	/^int JS_line_type(NodeType *node) {$/;"	f
+JS_ms_type	bst_sub3.cxx	/^int JS_ms_type(AreaType *area) {$/;"	f
+JS_processing	bst_sub1.cxx	/^void JS_processing(AreaType  *area) {$/;"	f
+JS_processing_sub	bst_sub1.cxx	/^void JS_processing_sub(AreaType  *area) {$/;"	f
+JS_processing_sub2	bst_sub1.cxx	/^void JS_processing_sub2(AreaType  *area) {$/;"	f
+K	bst.cxx	/^double K[2];   $/;"	v
+KStepStair	IME_code.cxx	/^void KStepStair(AreaSetType *stair, int step, AreaSetType *result) {$/;"	f
+L	bst_header.h	/^  int parent, L, R, id, root_id;$/;"	m	class:NodeType
+L	bst_sub3.h	/^  int parent, L, R, id, level;$/;"	m	struct:treenodetype
+LEFT	bst_header.h	71;"	d
+LIB_OBJECT	Makefile	/^LIB_OBJECT= facility.o bst.o  bst_sub1.o  bst_sub2.o bst_sub3.o IME_code.o sink_move.o$/;"	m
+LINEAR	bst_header.h	64;"	d
+LINEARMODEL	bstdme.h	/^      LINEARMODEL  = 0,   $/;"	e	enum:BST_DME::DelayModelType
+L_EdgeLen	bst_header.h	/^  double L_EdgeLen, R_EdgeLen; \/* edge length to its children *\/$/;"	m	class:AreaType
+L_MS	bst.cxx	/^TrrType  L_MS, R_MS;$/;"	v
+L_MS	bst_header.h	/^  TrrType L_MS, R_MS;$/;"	m	class:AreaType
+L_StubLen	bst_header.h	/^  double L_StubLen, R_StubLen; \/* edge length of stubs of buffered children *\/$/;"	m	class:AreaType
+L_area	bst_header.h	/^  int L_area, R_area;  \/* which area of child nodes is used *\/$/;"	m	class:AreaType
+L_intersect	bst_sub1.cxx	/^int L_intersect(double *x, double *y, double x1, double y1,double x2, $/;"	f
+L_sampling	bst.cxx	/^TrrType *L_sampling, *R_sampling;$/;"	v
+Last_Time	bst.cxx	/^double Last_Time, Gamma=1;$/;"	v
+LinearDelayModel	bst_header.h	/^  bool   LinearDelayModel () const {$/;"	f	class:BstTree
+Local_Opt	bst.cxx	/^int Local_Opt = NO;$/;"	v
+Low	foundation/BiStates.h	/^        Low = 0,$/;"	e	enum:LowHigh
+LowHigh	foundation/BiStates.h	/^    enum LowHigh {$/;"	g
+MANHATTAN	bst_header.h	94;"	d
+MANHATTAN_ARC	bst_header.h	85;"	d
+MAXPTS	bst_header.h	47;"	d
+MAX_BUFFER_LEVEL	bst_header.h	92;"	d
+MAX_N_Index	bst.cxx	/^int N_Index, MAX_N_Index; $/;"	v
+MAX_N_NODES	bst_header.h	102;"	d
+MAX_N_SINKS	bst_header.h	101;"	d
+MAX_N_SKEW_SAMPLES	bst_header.h	97;"	d
+MAX_STRING_LENGTH	bst_sub1.cxx	4245;"	d	file:
+MAX_STRING_LENGTH	bst_sub1.cxx	4293;"	d	file:
+MAX_TURN_PTS	bst_header.h	45;"	d
+MAX_mr_PTS	bst_header.h	46;"	d
+MAX_x	bst.cxx	/^double MAX_x, MAX_y, MIN_x, MIN_y;$/;"	v
+MAX_y	bst.cxx	/^double MAX_x, MAX_y, MIN_x, MIN_y;$/;"	v
+MIN_x	bst.cxx	/^double MAX_x, MAX_y, MIN_x, MIN_y;$/;"	v
+MIN_y	bst.cxx	/^double MAX_x, MAX_y, MIN_x, MIN_y;$/;"	v
+MakeCore	foundation/Trr.h	/^  F_Trr MakeCore    ( ) const {$/;"	f	class:F_Trr
+MakeDiamond	foundation/Trr.h	/^  void MakeDiamond ( const F_Point<NN, NNDD, DOCHECK>  &p, NN r ) {$/;"	f	class:F_Trr
+MakeIntersect	foundation/Trr.h	/^  F_Trr MakeIntersect   ( const F_Trr &trr1, const F_Trr &trr2 ) const {$/;"	f	class:F_Trr
+Manhattan_Arc_Node	bst_sub1.cxx	/^int Manhattan_Arc_Node(int v) {$/;"	f
+Manhattan_arc	bst_sub1.cxx	/^int Manhattan_arc(PointType p1,PointType p2) {$/;"	f
+Manhattan_arc_JS	bst_sub1.cxx	/^int Manhattan_arc_JS(NodeType *node) {$/;"	f
+Manhattan_arc_area	bst_sub1.cxx	/^int Manhattan_arc_area(AreaType  *area) {$/;"	f
+Manhattan_arc_node	bst_sub1.cxx	/^int Manhattan_arc_node(NodeType  *node) {$/;"	f
+Marked	bst.cxx	/^char *Marked;$/;"	v
+MaxClusterDelay	bst.cxx	/^double MaxClusterDelay, *ClusterDelay;$/;"	v
+Max_irredundant_regions	bst.cxx	/^int Max_irredundant_regions = 0; $/;"	v
+Max_n_regions	bst.cxx	/^int Max_n_regions = 0; $/;"	v
+Merge2Nodes	bst.cxx	/^NodeType::Merge2Nodes( NodeType *node_L,NodeType *node_R) {$/;"	f	class:NodeType
+Merge2Trees	bst.cxx	/^void Merge2Trees(int v, int L, int R) {$/;"	f
+Merge2Trees_sub3	bst.cxx	/^void Merge2Trees_sub3(int v, int L, int R) {$/;"	f
+MergeArea	bst.cxx	/^void MergeArea(AreaType  *area,AreaType  *area_L,AreaType  *area_R,int mode) {$/;"	f
+MergeArea_sub	bst.cxx	/^void MergeArea_sub(AreaType  *area) {$/;"	f
+MergeManhattanArc	bst.cxx	/^void MergeManhattanArc(AreaType  *area, AreaType  *area_L, AreaType  *area_R,$/;"	f
+MergeNonManhattanArc	bst.cxx	/^void MergeNonManhattanArc(AreaType *area,AreaType *area_L,AreaType *area_R, int mode){$/;"	f
+MergeSegment	bst.cxx	/^void MergeSegment(AreaType *area, int mode){$/;"	f
+NIL	bst_header.h	89;"	d
+NN	bst_sub3.cxx	19;"	d	file:
+NO	foundation/BiStates.h	/^        NO = 0,$/;"	e	enum:YESNO
+NORMAL	bst_header.h	42;"	d
+N_Area_Per_Node	bst.cxx	/^int N_Area_Per_Node  = 1; $/;"	v
+N_BUFFER_SIZE	bst_header.h	99;"	d
+N_Bal_Pt	bst.cxx	/^int N_Bal_Pt[2];$/;"	v
+N_Buffer_Level	bst.cxx	/^int N_Buffer_Level = 1, N_Clusters[MAX_BUFFER_LEVEL], Total_CL =0;$/;"	v
+N_Clusters	bst.cxx	/^int N_Buffer_Level = 1, N_Clusters[MAX_BUFFER_LEVEL], Total_CL =0;$/;"	v
+N_Index	bst.cxx	/^int N_Index, MAX_N_Index; $/;"	v
+N_Neighbor	bst.cxx	/^int  N_Neighbor  = 1;  $/;"	v
+N_Neighboring_Clusters	bst_header.h	53;"	d
+N_Obstacle	bst.cxx	/^int N_Obstacle = 0;            \/* Number of obstacles *\/$/;"	v
+N_S	bst_sub3.cxx	/^int N_S = 0, N_S0=0;                   \/* Number of detour points set  *\/$/;"	v
+N_S0	bst_sub3.cxx	/^int N_S = 0, N_S0=0;                   \/* Number of detour points set  *\/$/;"	v
+N_Sampling	bst.cxx	/^int N_Sampling = 7, n_L_sampling, n_R_sampling; $/;"	v
+N_TempArea	bst.cxx	/^int N_TempArea=1000; \/\/jianchao : value assigned for IME \/\/Modified$/;"	v
+N_Top_Embed	bst.cxx	/^int TmpCondition = NO, N_Top_Embed = 0;$/;"	v
+N_neighbors	bst.cxx	/^int *N_neighbors;$/;"	v
+NearestCenter	bst.cxx	/^int *NearestCenter;$/;"	v
+Neighbor_Cost	bst.cxx	/^double **Neighbor_Cost;$/;"	v
+Node	bst.cxx	/^vector <NodeType > Node, CandiRoot, TempNode;$/;"	v
+NodeType	bst_header.h	/^  NodeType ():area(0), ms(0) {$/;"	f	class:NodeType
+NodeType	bst_header.h	/^class NodeType {$/;"	c
+Npoints	bst_header.h	/^  unsigned Npoints () const {$/;"	f	class:BstTree
+Nterms	bst_header.h	/^  unsigned Nterms () const {$/;"	f	class:BstTree
+NumDelayModel	bstdme.h	/^      NumDelayModel          $/;"	e	enum:BST_DME::DelayModelType
+OBJECT	Makefile	/^OBJECT= main.o $/;"	m
+ON	bst_header.h	78;"	d
+ON_line_segment	bst_sub1.cxx	/^int ON_line_segment(double *x,double *y,double x1,double y1,double x2,double y2) {$/;"	f
+OUTSIDE	bst_header.h	79;"	d
+OVERLAPPING	bst_header.h	61;"	d
+Obj_Cost	bst_sub2.cxx	/^double Obj_Cost;$/;"	v
+ObsBox	bst_sub3.cxx	/^double **ObsBox;$/;"	v
+Obstacle	bst_sub3.cxx	/^ObstacleType *Obstacle, *Tmp_Obstacle;    \/* which are rectangles *\/$/;"	v
+ObstacleType	bst_sub3.h	/^} ObstacleType;$/;"	t	typeref:struct:obstacletype
+ObstructionFileName	bst_header.h	/^  string ObstructionFileName () const {$/;"	f	class:BstTree
+Orig_Skew_B	bst_header.h	/^  double Orig_Skew_B ( void ) const {$/;"	f	class:BstTree
+P1	bst_header.h	56;"	d
+P2	bst_header.h	57;"	d
+P3	bst_header.h	58;"	d
+P4	bst_header.h	59;"	d
+PARA_MANHATTAN_ARC	bst_header.h	75;"	d
+PT_on_line_segment	bst_sub1.cxx	/^int PT_on_line_segment(PointType *pt,PointType pt1,PointType pt2) {$/;"	f
+PUCAP	bst.cxx	/^double PURES[2], PUCAP[2]; \/*per unit resistance and capacitance *\/$/;"	v
+PUCAP_SCALE	bst_header.h	50;"	d
+PUCAP_V_SCALE	bst.cxx	/^double PUCAP_V_SCALE = 1;$/;"	v
+PURES	bst.cxx	/^double PURES[2], PUCAP[2]; \/*per unit resistance and capacitance *\/$/;"	v
+PURES_V_SCALE	bst.cxx	/^double PURES_V_SCALE = 1;$/;"	v
+PairType	bst_header.h	/^class PairType {$/;"	c
+PointType	bst_header.h	/^typedef F_Point < double, double, true > PointType ;$/;"	t
+Point_E_dist	bst_sub3.cxx	/^double Point_E_dist(PointType p1, PointType p2) {$/;"	f
+Point_dist	bst_sub1.cxx	/^double Point_dist(PointType p1, PointType p2) {$/;"	f
+Points	bst.cxx	/^PointType  *Points;$/;"	v
+Pucap	bst_header.h	/^  double Pucap ( unsigned i=0 ) {$/;"	f	class:BstTree
+Pures	bst_header.h	/^  double Pures ( unsigned i=0 ) {$/;"	f	class:BstTree
+R	bst_header.h	/^  int parent, L, R, id, root_id;$/;"	m	class:NodeType
+R	bst_sub3.h	/^  int parent, L, R, id, level;$/;"	m	struct:treenodetype
+RIGHT	bst_header.h	73;"	d
+R_Coord	bst_header.h	/^typedef F_Coord < double, double, true > R_Coord ;$/;"	t
+R_EdgeLen	bst_header.h	/^  double L_EdgeLen, R_EdgeLen; \/* edge length to its children *\/$/;"	m	class:AreaType
+R_Interval	bst_header.h	/^typedef F_Interval < double, double, true > R_Interval ;$/;"	t
+R_MS	bst.cxx	/^TrrType  L_MS, R_MS;$/;"	v
+R_MS	bst_header.h	/^  TrrType L_MS, R_MS;$/;"	m	class:AreaType
+R_StubLen	bst_header.h	/^  double L_StubLen, R_StubLen; \/* edge length of stubs of buffered children *\/$/;"	m	class:AreaType
+R_area	bst_header.h	/^  int L_area, R_area;  \/* which area of child nodes is used *\/$/;"	m	class:AreaType
+R_buffer	bst.cxx	/^int R_buffer= 100;$/;"	v
+R_buffer	bst_header.h	/^  int R_buffer;$/;"	m	class:AreaType
+R_buffer_size	bst.cxx	/^int R_buffer_size[N_BUFFER_SIZE];$/;"	v
+R_sampling	bst.cxx	/^TrrType *L_sampling, *R_sampling;$/;"	v
+Read_Delay_Skew_File	bst.cxx	/^int  Read_Delay_Skew_File = NO;$/;"	v
+RootNode	bst_header.h	/^  NodeType *RootNode ( ) {$/;"	f	class:BstTree
+RootNodeIndex	bst_header.h	/^  int RootNodeIndex () const {$/;"	f	class:BstTree
+RunTime	Time.cxx	/^void RunTime() {$/;"	f
+S	bst_sub3.cxx	/^PointType *S, *S0;   \/* Set of detour points, which are obstacle vertices *\/ $/;"	v
+S0	bst_sub3.cxx	/^PointType *S, *S0;   \/* Set of detour points, which are obstacle vertices *\/ $/;"	v
+SAME_EDGE	bst_header.h	62;"	d
+SS	bst_sub3.cxx	20;"	d	file:
+S_Cost	bst_sub3.cxx	/^double *S_Cost;$/;"	v
+S_N_Hops	bst_sub3.cxx	/^int *S_N_Hops;$/;"	v
+S_Par	bst_sub3.cxx	/^int *S_Par;$/;"	v
+Same_Point_delay	bst_sub1.cxx	/^int Same_Point_delay(PointType *p, PointType *q) {$/;"	f
+SelfDOCHECK	foundation/Trr.h	/^  void SelfDOCHECK ( ) {$/;"	f	class:F_Trr
+SetDelayModel	bst_header.h	/^  void SetDelayModel ( BST_DME::DelayModelType i ) {$/;"	f	class:BstTree
+SetLayerParasitics	bst_header.h	/^  void SetLayerParasitics ( double pures[2], double pucap[2] ) {$/;"	f	class:BstTree
+SetNterms	bst_header.h	/^  void SetNterms ( unsigned i ) {$/;"	f	class:BstTree
+SetObstructionFileName	bst_header.h	/^  void SetObstructionFileName (const string &fn ) {$/;"	f	class:BstTree
+SetPerUnitCapacitance	bst_header.h	/^  void SetPerUnitCapacitance ( double pucap[2] ) {$/;"	f	class:BstTree
+SetPerUnitResistance	bst_header.h	/^  void SetPerUnitResistance ( double pures[2] ) {$/;"	f	class:BstTree
+SetSkewBound	bst_header.h	/^  void SetSkewBound ( double b ) {$/;"	f	class:BstTree
+SetTopologyFileName	bst_header.h	/^  void SetTopologyFileName (const string &fn ) {$/;"	f	class:BstTree
+ShowTime	Time.cxx	/^void ShowTime() {$/;"	f
+SinksFileName	bst_header.h	/^  string SinksFileName () const {$/;"	f	class:BstTree
+SkewBound	bst_header.h	/^  double SkewBound ( void ) const {$/;"	f	class:BstTree
+Skew_B	bst.cxx	/^double Start_Tcost = 0, Start_Skew_B = -2, Skew_B = 0, Skew_B_CLS[MAX_N_SINKS];$/;"	v
+Skew_B_CLS	bst.cxx	/^double Start_Tcost = 0, Start_Skew_B = -2, Skew_B = 0, Skew_B_CLS[MAX_N_SINKS];$/;"	v
+Split_Factor	bst.cxx	/^double Split_Factor = 10.0;$/;"	v
+Start_Skew_B	bst.cxx	/^double Start_Tcost = 0, Start_Skew_B = -2, Skew_B = 0, Skew_B_CLS[MAX_N_SINKS];$/;"	v
+Start_Tcost	bst.cxx	/^double Start_Tcost = 0, Start_Skew_B = -2, Skew_B = 0, Skew_B_CLS[MAX_N_SINKS];$/;"	v
+StubLength	bst.cxx	/^vector<double> EdgeLength, StubLength;$/;"	v
+SuperRootNode	bst_header.h	/^  NodeType *SuperRootNode ( ) {$/;"	f	class:BstTree
+SuperRootNodeIndex	bst_header.h	/^  int SuperRootNodeIndex () const {$/;"	f	class:BstTree
+TILT	bst_header.h	87;"	d
+TOP	bst_header.h	72;"	d
+TRR2area	bst_sub1.cxx	/^int TRR2area(TrrType *trr, PointType pt[]) {$/;"	f
+TRR2pt	bst_sub1.cxx	/^void TRR2pt(TrrType *trr, PointType *pt) {$/;"	f
+TRR_area	bst_sub1.cxx	/^int TRR_area(AreaType *area) {$/;"	f
+TempArea	bst.cxx	/^AreaType *TempArea = (AreaType*)calloc(1000, sizeof(AreaType)); \/\/Modified$/;"	v
+TempNode	bst.cxx	/^vector <NodeType > Node, CandiRoot, TempNode;$/;"	v
+The_NEIghors	bst.cxx	/^int   **The_NEIghors;$/;"	v
+TmpCluster	bst.cxx	/^TmpClusterType *TmpCluster, Tmp_x_Cluster, Tmp_y_Cluster;$/;"	v
+TmpClusterId	bst.cxx	/^int *TmpClusterId;$/;"	v
+TmpClusterType	bst_header.h	/^  TmpClusterType ( ) : ms(0) {$/;"	f	class:TmpClusterType
+TmpClusterType	bst_header.h	/^class TmpClusterType {$/;"	c
+TmpCondition	bst.cxx	/^int TmpCondition = NO, N_Top_Embed = 0;$/;"	v
+TmpMarked	bst.cxx	/^int    *TmpMarked;$/;"	v
+TmpNpoints	bst_sub2.cxx	/^int TmpNpoints;$/;"	v
+Tmp_Obstacle	bst_sub3.cxx	/^ObstacleType *Obstacle, *Tmp_Obstacle;    \/* which are rectangles *\/$/;"	v
+Tmp_x_Cluster	bst.cxx	/^TmpClusterType *TmpCluster, Tmp_x_Cluster, Tmp_y_Cluster;$/;"	v
+Tmp_y_Cluster	bst.cxx	/^TmpClusterType *TmpCluster, Tmp_x_Cluster, Tmp_y_Cluster;$/;"	v
+TopDown_Embedding	bst.cxx	/^void TopDown_Embedding(int v) {$/;"	f
+TopologyFileName	bst_header.h	/^  string TopologyFileName () const {$/;"	f	class:BstTree
+TotalLength	bst.cxx	/^BST_DME::TotalLength ( void ) const {$/;"	f	class:BST_DME
+TotalLength	bst.cxx	/^BstTree::TotalLength ( void ) const {$/;"	f	class:BstTree
+Total_CL	bst.cxx	/^int N_Buffer_Level = 1, N_Clusters[MAX_BUFFER_LEVEL], Total_CL =0;$/;"	v
+TreeNode	bst_header.h	/^  NodeType *TreeNode ( unsigned i ) {$/;"	f	class:BstTree
+TreeNode	bst_sub3.cxx	/^TreeNodeType   *TreeNode;$/;"	v
+TreeNodeType	bst_sub3.h	/^} TreeNodeType;$/;"	t	typeref:struct:treenodetype
+TreeRoots	bst.cxx	/^int TreeRoots[MAX_N_SINKS];  \/* nodes which are the roots *\/$/;"	v
+TrrType	bst_header.h	/^typedef F_Trr < double, double, true > TrrType ;$/;"	t
+Trr_Interval	foundation/Trr.h	/^  typedef  F_Interval<NN,NNDD,DOCHECK> Trr_Interval ;$/;"	t	class:F_Trr
+TwoStates	foundation/BiStates.h	/^    typedef unsigned TwoStates;$/;"	t
+U_Printf	facility.cxx	/^U_Printf( const char *fmt, ... ) {$/;"	f
+UnMarkedNodes	bst.cxx	/^int *UnMarkedNodes;$/;"	v
+VERTICAL	bst_header.h	83;"	d
+V_	bst_header.h	41;"	d
+WW	bst_sub3.cxx	22;"	d	file:
+Weight	bst.cxx	/^double Weight  = 0.0;$/;"	v
+Width	foundation/MyInterval.h	/^     NN Width (void) const {$/;"	f	class:F_Interval
+Width	foundation/Trr.h	/^  NN Width ( TwoStates i ) const {$/;"	f	class:F_Trr
+X	foundation/BiStates.h	/^        X = 0,$/;"	e	enum:XY
+XING	bst_header.h	60;"	d
+XY	foundation/BiStates.h	/^    enum XY {$/;"	g
+Y	foundation/BiStates.h	/^        Y = 1$/;"	e	enum:XY
+YES	foundation/BiStates.h	/^        YES = 1$/;"	e	enum:YESNO
+YESNO	foundation/BiStates.h	/^    enum YESNO {$/;"	g
+_BSTDME_H	bstdme.h	14;"	d
+_BST_H	bst.h	12;"	d
+_BST_SUB1_H	bst_sub1.h	12;"	d
+_BST_SUB3_H	bst_sub3.h	13;"	d
+_F_BASEDEFINE_H	foundation/BaseDefine.h	3;"	d
+_F_BISTATES_H	foundation/BiStates.h	10;"	d
+_F_BOX_H	foundation/MyBox.h	9;"	d
+_F_COORD_H	foundation/Coordinate.h	9;"	d
+_F_FACILTY_H	facility.h	11;"	d
+_F_INTERVAL_H	foundation/MyInterval.h	9;"	d
+_F_TIME_H	Time.h	10;"	d
+_F_TRR_H	foundation/Trr.h	10;"	d
+_GLOBAL_VAR_H	Global_var.h	13;"	d
+_HEADER_H	bst_header.h	11;"	d
+_IME_CODE_H	IME_code.h	13;"	d
+_bbox_overlap	bst_sub1.cxx	/^int _bbox_overlap(double x1, double y1, double x2, double y2,$/;"	f
+_calc_all_cluster_neighbors	bst_sub2.cxx	/^int _calc_all_cluster_neighbors(PairType pair[], int n_clusters) {$/;"	f
+_calc_cluster_center	sink_move.cxx	/^void _calc_cluster_center(int cid, TrrType *ms) {$/;"	f
+_calc_cluster_neighbors	sink_move.cxx	/^int _calc_cluster_neighbors(int cid, PairType pair[], int size) {$/;"	f
+_calc_edge_delay_	bst_sub1.cxx	/^double _calc_edge_delay_(int v, int par) {$/;"	f
+_pair_compare_inc1	bst_sub2.cxx	/^int _pair_compare_inc1(const void *a, const void *b) {$/;"	f
+_pair_compare_inc2	bst_sub2.cxx	/^int _pair_compare_inc2(const void *a, const void *b) {$/;"	f
+_pair_compare_inc2_sub	bst_sub2.cxx	/^double _pair_compare_inc2_sub(PairType *p) {$/;"	f
+_print_bst_sub2	bst_sub1.cxx	/^void _print_bst_sub2(FILE *f, int v) {$/;"	f	file:
+_pt_delay_increase	bst_sub1.cxx	/^double _pt_delay_increase(double pat, double leng,double cap,PointType *q0,PointType *q1) {$/;"	f
+a_segment_TRR	bst_sub1.cxx	/^int a_segment_TRR(TrrType *trr) {$/;"	f
+add_Bal_Pt	bst.cxx	/^void add_Bal_Pt(int side,PointType p) {$/;"	f
+add_Fms_Pt	bst.cxx	/^void add_Fms_Pt(int side,PointType *p) {$/;"	f
+add_JS_pts	bst.cxx	/^void add_JS_pts(AreaType *area,int side, AreaType *child) {$/;"	f
+add_LINEAR_turn_point	bst.cxx	/^void add_LINEAR_turn_point(AreaType *area) {$/;"	f
+add_LINEAR_turn_point_sub	bst.cxx	/^void add_LINEAR_turn_point_sub(int side,double d0,double d1,$/;"	f
+add_balance_pt	bst.cxx	/^void add_balance_pt(int side, PointType q[5], int *n) {$/;"	f
+add_buffer	bst.cxx	/^void add_buffer (int L, int n_buffer, int buffered_Node[]) {$/;"	f	file:
+add_buffer_sub	bst.cxx	/^void add_buffer_sub (int v) {$/;"	f	file:
+add_center	bst_sub2.cxx	/^void add_center(int cid, int sink) {$/;"	f
+add_fms_of_JR	bst.cxx	/^void add_fms_of_JR(int side) {$/;"	f
+add_fms_of_JR_sub	bst.cxx	/^void add_fms_of_JR_sub(PointType pt0,PointType pt1, PointType *pt) {$/;"	f
+add_fms_of_line	bst.cxx	/^void add_fms_of_line(int side,PointType  q[5], int *n) {$/;"	f
+add_more_JR_pts	bst.cxx	/^void add_more_JR_pts(AreaType *area, int side, double t_from[]) {$/;"	f
+add_more_JS_pts	bst.cxx	/^void add_more_JS_pts(int side, double dist, int n)  {$/;"	f
+add_turn_point	bst.cxx	/^void add_turn_point(int side,int x,int y, double t_from[]) {$/;"	f
+align_JS	bst_sub1.cxx	/^void align_JS(int side) {$/;"	f
+alloca_NodeType	bst_sub1.cxx	/^void alloca_NodeType(NodeType *node) {$/;"	f
+alloca_NodeType_with_n_areas	bst_sub1.cxx	/^void alloca_NodeType_with_n_areas(NodeType *node, int n) {$/;"	f
+any_fms_on_JR	bst_sub1.cxx	/^int any_fms_on_JR() {$/;"	f
+append_area_array	bst_sub3.cxx	/^void append_area_array(AreaType a[], int n, AreaType b[], int *m) {$/;"	f
+area	bst_header.h	/^  AreaType  *area;$/;"	m	class:NodeType
+areaJS_line_type	bst_sub1.cxx	/^int areaJS_line_type(AreaType *area) {$/;"	f
+area_L	bst_header.h	/^  AreaType *area_L, *area_R; $/;"	m	class:AreaType
+area_Manhattan_arc_JS	bst_sub1.cxx	/^int area_Manhattan_arc_JS(AreaType *area) {$/;"	f
+area_R	bst_header.h	/^  AreaType *area_L, *area_R; $/;"	m	class:AreaType
+area_merge_cost	bst_sub1.cxx	/^double area_merge_cost(AreaType *area) {$/;"	f
+area_minskew	bst_sub1.cxx	/^double area_minskew(AreaType *area) {$/;"	f
+assign_Given_Hierachy_Cluster_id	bst_sub2.cxx	/^void assign_Given_Hierachy_Cluster_id(int n, int start_id,int n_clusters) {$/;"	f	file:
+assign_NodeType	bst_sub1.cxx	/^void assign_NodeType(NodeType *node1, NodeType *node2) {$/;"	f
+bblock_overlap	bst_sub3.cxx	/^int bblock_overlap(ObstacleType *b1,ObstacleType *b2) {$/;"	f
+bbox	bst_sub3.h	/^  double bbox[4];$/;"	m	struct:treenodetype
+bbox_overlap	bst_sub1.cxx	/^int bbox_overlap(double x1, double y1, double x2, double y2,$/;"	f
+block_compare_inc1	bst_sub3.cxx	/^int block_compare_inc1(const void  *p1, const void  *q1) {$/;"	f
+block_compare_inc2	bst_sub3.cxx	/^int block_compare_inc2(const void  *p1, const void  *q1) {$/;"	f
+bstsVersion	main.cxx	/^void bstsVersion () {$/;"	f	file:
+bstusage	main.cxx	/^const string bstusage = $/;"	v
+bucket_partitioning	bst.cxx	/^void bucket_partitioning(int n) {$/;"	f
+bucket_partitioning_sub	bst.cxx	/^void bucket_partitioning_sub(int v) {$/;"	f
+buckettype	bst_header.h	/^typedef struct buckettype {$/;"	s
+buffered	bst_header.h	/^  char buffered;   \/* indicated if buffered *\/$/;"	m	class:NodeType
+build_NodeTRR	bst_sub1.cxx	/^void build_NodeTRR(NodeType *node) {$/;"	f
+build_NodeTRR_sub1	bst_sub1.cxx	/^void build_NodeTRR_sub1(NodeType *node) {$/;"	f
+build_NodeTRR_sub2	bst_sub1.cxx	/^void build_NodeTRR_sub2(NodeType *node) {$/;"	f
+build_k_center	bst_sub2.cxx	/^void build_k_center(int k) {$/;"	f
+build_nearest_neighbor_graph	bst.cxx	/^void build_nearest_neighbor_graph(int n, int show_info) {$/;"	f
+build_trr	bst_sub1.cxx	/^void build_trr(TrrType *ms,double d,TrrType *trr) {$/;"	f
+ca	bst_header.h	/^  int   n_area, ca;$/;"	m	class:NodeType
+cal_Bal_Pt	bst.cxx	/^void cal_Bal_Pt(AreaType *area) {$/;"	f
+cal_Bal_Pt_sub	bst.cxx	/^void cal_Bal_Pt_sub(AreaType *area, int side) {$/;"	f
+cal_Fms_Pt	bst.cxx	/^void cal_Fms_Pt(AreaType *area, AreaType *area_L, AreaType *area_R) {$/;"	f
+cal_Fms_Pt_sub	bst.cxx	/^void cal_Fms_Pt_sub(AreaType *area,int side){$/;"	f
+cal_ms_merging_cost	bst.cxx	/^void cal_ms_merging_cost(AreaType  *area,AreaType  *area_L,AreaType  *area_R) {$/;"	f
+cal_split	bst_sub2.cxx	/^double cal_split(int cp) {$/;"	f	file:
+calc_A	bst.cxx	/^double calc_A(PointType *p0, PointType *p1) {$/;"	f
+calc_B0_B1	bst.cxx	/^void calc_B0_B1(AreaType *area, double *B0, double *B1) {$/;"	f
+calc_BST_delay	bst_sub1.cxx	/^void calc_BST_delay(int v) {$/;"	f
+calc_BST_delay_sub	bst_sub1.cxx	/^void calc_BST_delay_sub(int v) {$/;"	f
+calc_BS_located	bst_sub1.cxx	/^void calc_BS_located(PointType *pt,AreaType *area, PointType *p1,$/;"	f
+calc_Bal_of_2pt	bst_sub1.cxx	/^void calc_Bal_of_2pt(PointType *pt0, PointType *pt1, int delay_id,$/;"	f
+calc_Buffered_sub	bst.cxx	/^double calc_Buffered_sub(int L, int n_buffer, int buffered_Node[]) {$/;"	f
+calc_Elmore_merge_distance	bst_sub1.cxx	/^void calc_Elmore_merge_distance(double r, double c, double cap1,double delay1,$/;"	f
+calc_Fms_of_line	bst.cxx	/^int calc_Fms_of_line(AreaType *area, PointType pt, PointType q, int side) {$/;"	f
+calc_Fms_of_line_sub	bst.cxx	/^void calc_Fms_of_line_sub(PointType *pt,PointType *q, PointType *ans) {$/;"	f
+calc_JR	bst.cxx	/^void calc_JR(AreaType *area, AreaType *area_L,AreaType *area_R) {$/;"	f
+calc_JR_area_sub	bst_sub1.cxx	/^double calc_JR_area_sub(PointType p0,PointType p1,PointType p2,PointType p3) {$/;"	f
+calc_JR_case2	bst.cxx	/^void calc_JR_case2(AreaType *area, AreaType *area_L,AreaType *area_R) {$/;"	f
+calc_JR_corner	bst.cxx	/^void calc_JR_corner(AreaType *area) {$/;"	f
+calc_JR_corner_sub1	bst.cxx	/^void calc_JR_corner_sub1(AreaType *area, int i) {$/;"	f
+calc_JR_corner_sub2	bst.cxx	/^void calc_JR_corner_sub2(int i, double x0,double y0,double x1,double y1) {$/;"	f
+calc_JR_endpoints	bst.cxx	/^void calc_JR_endpoints(AreaType *area) {$/;"	f
+calc_JR_minskew	bst.cxx	/^double calc_JR_minskew(int i) {$/;"	f
+calc_JS	bst.cxx	/^void calc_JS(AreaType *area,AreaType *area_L,AreaType *area_R,int v1,int v2) {$/;"	f
+calc_JS_delay	bst_sub1.cxx	/^void calc_JS_delay(AreaType *area, AreaType *area_L,AreaType *area_R) {$/;"	f
+calc_JS_pt_delays	bst.cxx	/^void calc_JS_pt_delays(int side, PointType *pt) {$/;"	f
+calc_JS_sub1	bst.cxx	/^void calc_JS_sub1(AreaType *area, AreaType *area_L,AreaType *area_R) {$/;"	f
+calc_JS_sub2	bst.cxx	/^void calc_JS_sub2(AreaType *area, PointType pt[4]) {$/;"	f
+calc_Linear_merge_distance	bst_sub1.cxx	/^void calc_Linear_merge_distance(double delay1,double delay2,double d,$/;"	f
+calc_Merge3rees_cost	bst_sub1.cxx	/^void calc_Merge3rees_cost(NodeType *node, int L, int R) {$/;"	f
+calc_Merge4Trees_cost	bst_sub1.cxx	/^void calc_Merge4Trees_cost(NodeType *node, int L, int R) {$/;"	f
+calc_N_S0	bst_sub3.cxx	/^void calc_N_S0() {$/;"	f
+calc_NearestCenter	bst_sub2.cxx	/^void calc_NearestCenter(int cp) {$/;"	f
+calc_Obj_Cost	bst_sub2.cxx	/^double calc_Obj_Cost(int n_clusters, double exponent) {$/;"	f	file:
+calc_S	bst_sub3.cxx	/^void calc_S() {$/;"	f
+calc_TreeCost	bst_sub1.cxx	/^int calc_TreeCost(int v, double *Tcost, double *Tdist) {$/;"	f
+calc_TreeCost_sub	bst_sub1.cxx	/^void calc_TreeCost_sub(int par, int v, double *Tcost, double *Tdist, int$/;"	f
+calc_a_cluster_cost	bst_sub2.cxx	/^void calc_a_cluster_cost(int cid ) {$/;"	f	file:
+calc_all_cluster_neighbors	sink_move.cxx	/^int calc_all_cluster_neighbors(PairType pair[], int n_clusters, int size) {$/;"	f
+calc_area	bst_sub1.cxx	/^double calc_area(AreaType *area) {$/;"	f
+calc_area_EdgeLen	bst.cxx	/^void calc_area_EdgeLen(AreaType *area, double *d0, double *d1) {$/;"	f
+calc_area_center	bst.cxx	/^void calc_area_center(AreaType *area, PointType *pt) {$/;"	f
+calc_best_area	bst.cxx	/^int calc_best_area(int v) {$/;"	f
+calc_boundary	bst_sub2.cxx	/^void calc_boundary(){$/;"	f
+calc_boundary_length	bst_sub1.cxx	/^double calc_boundary_length(AreaType *area) {$/;"	f
+calc_buffer_fanout	bst_sub1.cxx	/^int calc_buffer_fanout(int v) {$/;"	f
+calc_buffered_edge_delay	bst_sub1.cxx	/^double calc_buffered_edge_delay(int v, int par) {$/;"	f
+calc_buffered_node_delay	bst_sub1.cxx	/^double calc_buffered_node_delay(int v) {$/;"	f
+calc_cluster_center	bst_sub2.cxx	/^void calc_cluster_center(int cid, TrrType *ms, PointType Points[]) {$/;"	f
+calc_cluster_neighbors	bst_sub2.cxx	/^int calc_cluster_neighbors(int cid, PairType pair[], TrrType *ms, int size,$/;"	f
+calc_cluster_size	bst_sub1.cxx	/^int calc_cluster_size(int cid) {$/;"	f
+calc_clusters_cost	bst_sub2.cxx	/^void calc_clusters_cost(int n_clusters, double *ave_t, double *max_t, $/;"	f	file:
+calc_coor	bst.cxx	/^void calc_coor(PointType *pt,PointType p0,PointType p1,double z, int linetype) {$/;"	f
+calc_coordinate	bst.cxx	/^void calc_coordinate(AreaType *area,int side, double d0,double d1,PointType *pts) {$/;"	f
+calc_cost_statistics	bst_sub2.cxx	/^void calc_cost_statistics(int n_clusters, double *ave_t, double *max_t, $/;"	f
+calc_delay_increase	bst_sub1.cxx	/^double calc_delay_increase(double pattern, double cap,double x, double y) {$/;"	f
+calc_delay_of_ms	bst.cxx	/^void calc_delay_of_ms(AreaType *area, PointType *p0, PointType *p1) {$/;"	f
+calc_deviation	bst_sub2.cxx	/^double calc_deviation(int n_clusters, double ave_t) {$/;"	f	file:
+calc_edge_delay	bst_sub1.cxx	/^double calc_edge_delay(int v, int par, int mode) {$/;"	f
+calc_fanout_sub	bst_sub1.cxx	/^void calc_fanout_sub(int v, int *n) {$/;"	f	file:
+calc_feasible_subpath	bst_sub3.cxx	/^void calc_feasible_subpath(PointType path[], int n, int k, int m[2]) {$/;"	f
+calc_furthest_sink	bst_sub2.cxx	/^int calc_furthest_sink() {$/;"	f
+calc_line_type	bst_sub1.cxx	/^int calc_line_type(PointType pt1,PointType pt2) {$/;"	f
+calc_max_capac	bst.cxx	/^double calc_max_capac(int L) {$/;"	f
+calc_merge_distance	bst_sub1.cxx	/^void calc_merge_distance(double r,double c, double cap1,double delay1,$/;"	f
+calc_merge_pt_delay	bst.cxx	/^void calc_merge_pt_delay(AreaType *area, double d0, double d1) {$/;"	f
+calc_merge_pt_delay_sub	bst.cxx	/^double calc_merge_pt_delay_sub(AreaType *area, double d0, double d1) {$/;"	f
+calc_merging_cost	bst.cxx	/^double calc_merging_cost(int i, int j) {$/;"	f
+calc_merging_cost_sub	bst_sub1.cxx	/^void calc_merging_cost_sub(NodeType *node, int L, int R) {$/;"	f
+calc_min_split	bst_sub2.cxx	/^double calc_min_split() {$/;"	f	file:
+calc_mss	bst.cxx	/^calc_mss ( AreaType *area ) {$/;"	f	file:
+calc_n_JS	bst_sub1.cxx	/^void calc_n_JS() {$/;"	f
+calc_n_buffer	bst_sub1.cxx	/^int calc_n_buffer() {$/;"	f
+calc_n_buffer_level	bst_sub1.cxx	/^int calc_n_buffer_level() {$/;"	f
+calc_n_vertex	bst_sub3.cxx	/^void calc_n_vertex(AreaType *area) {$/;"	f
+calc_nearest_neighbor	bst.cxx	/^int calc_nearest_neighbor(int v,int inc) {$/;"	f
+calc_nearest_neighbor_sub	bst.cxx	/^void calc_nearest_neighbor_sub(int v,int out_xlow,int out_xhi,int out_ylow,$/;"	f
+calc_new_JS	bst.cxx	/^void calc_new_JS(AreaType *area) {$/;"	f
+calc_new_delay	bst.cxx	/^void calc_new_delay(AreaType *area, int side, PointType *pt) {$/;"	f
+calc_new_path_delay	bst_sub3.cxx	/^void calc_new_path_delay(AreaType *area, PointType path[], int n) {$/;"	f
+calc_new_rect_JS	bst.cxx	/^void calc_new_rect_JS(AreaType *area, AreaType *area_L, AreaType *area_R) {$/;"	f
+calc_new_rect_JS_sub	bst.cxx	/^void calc_new_rect_JS_sub(AreaType *area,int side, double dist, double delay) {$/;"	f
+calc_node_delay	bst_sub1.cxx	/^double calc_node_delay(int v, double delay, int mode) {$/;"	f
+calc_path_balance_pt	bst_sub3.cxx	/^int calc_path_balance_pt(AreaType *area, PointType path[], int n,$/;"	f
+calc_pathlength	bst_sub3.cxx	/^double calc_pathlength(PointType path[], int n, int mode) {$/;"	f
+calc_pt_coor_on_a_line	bst_sub1.cxx	/^void calc_pt_coor_on_a_line(PointType q0,PointType q1, double d0,double d1, $/;"	f
+calc_pt_delays	bst_sub1.cxx	/^void calc_pt_delays(AreaType *area, PointType *q1,PointType q0,PointType q2) {$/;"	f
+calc_pt_delays_sub	bst_sub1.cxx	/^void calc_pt_delays_sub(AreaType *area,PointType *q1,PointType q0,PointType q2){$/;"	f
+calc_sampling_set	bst.cxx	/^int calc_sampling_set(AreaType *area, TrrType *sampling_set) {$/;"	f
+calc_side_loc	bst_sub1.cxx	/^int calc_side_loc(int side) {$/;"	f
+calc_skew_slope	bst.cxx	/^double calc_skew_slope(AreaType *area) {$/;"	f
+calc_slope	bst_sub1.cxx	/^double calc_slope(PointType p1, PointType p2, int *type) {$/;"	f
+calc_star_center_cost	bst_sub2.cxx	/^void calc_star_center_cost(int cid) {$/;"	f
+calc_subpath_length	bst_sub3.cxx	/^double calc_subpath_length(PointType path[], int k1, int k2, int mode) {$/;"	f
+calc_t_inc	bst.cxx	/^double calc_t_inc(AreaType *area, double d0) {$/;"	f
+calc_vertices	bst_sub1.cxx	/^void calc_vertices(AreaType *area) {$/;"	f
+calc_vertices_sub	bst_sub1.cxx	/^void calc_vertices_sub(AreaType *area) {$/;"	f
+calc_whole_BST	bst.cxx	/^void calc_whole_BST(int show_info, int PostOpt, bool fixedTopology ) {$/;"	f	file:
+calc_x	bst.cxx	/^double calc_x(AreaType  *area) {$/;"	f	file:
+calc_x_Bal_position	bst_sub1.cxx	/^double calc_x_Bal_position(double delay0, double delay1, double cap0,$/;"	f
+calc_y_Bal_position	bst_sub1.cxx	/^double calc_y_Bal_position(double delay0, double delay1, double cap0,$/;"	f
+calloc_TempArea	bst.cxx	/^void calloc_TempArea() {$/;"	f
+capac	bst_header.h	/^  double capac, t;$/;"	m	class:TmpClusterType
+capac	bst_header.h	/^  double capac, unbuf_capac;    \/* capacitance of the subtree *\/$/;"	m	class:AreaType
+case_Manhattan_arc	bst_sub1.cxx	/^int case_Manhattan_arc() {$/;"	f
+center_of_segment	bst_sub3.cxx	/^void center_of_segment(PointType *q, PointType p1, PointType p2) {$/;"	f
+change_topology	bst.cxx	/^int change_topology(int p) {$/;"	f
+check_Bucket	bst.cxx	/^void check_Bucket() {$/;"	f
+check_Elmore_delay_skew	bst.cxx	/^void check_Elmore_delay_skew(PointType q[], int n, double delta) {$/;"	f
+check_JR_linear_delay_skew	bst.cxx	/^check_JR_linear_delay_skew(int side) {$/;"	f
+check_JR_turn_pts_coor	bst.cxx	/^void check_JR_turn_pts_coor(AreaType *area, int side) {$/;"	f
+check_JS_MS	bst_sub1.cxx	/^void check_JS_MS( ) {$/;"	f
+check_JS_line	bst_sub1.cxx	/^void check_JS_line(NodeType *node, NodeType *node_L,NodeType *node_R) {$/;"	f
+check_LINEAR_mr	bst.cxx	/^void check_LINEAR_mr(AreaType *area) {$/;"	f
+check_LINEAR_mr_sub	bst.cxx	/^void check_LINEAR_mr_sub(PointType p1,PointType p2) {$/;"	f
+check_MergeArea1	bst.cxx	/^void check_MergeArea1(AreaType  *area) {$/;"	f
+check_MergeArea1_sub	bst.cxx	/^void check_MergeArea1_sub(AreaType  *area, PointType *pt) {$/;"	f
+check_MergeArea2	bst.cxx	/^void check_MergeArea2(AreaType  *area,AreaType  *area_L,AreaType  *area_R,$/;"	f
+check_Point	bst_sub1.cxx	/^void check_Point(PointType *pt) {$/;"	f
+check_Point_delay	bst_sub1.cxx	/^void check_Point_delay(PointType *pt) {$/;"	f
+check_Point_skew	bst_sub1.cxx	/^void check_Point_skew(PointType *pt) {$/;"	f	file:
+check_ZST	bst_sub1.cxx	/^void check_ZST(int v) {$/;"	f
+check_ZST_detour	bst_sub1.cxx	/^void check_ZST_detour(NodeType *node, NodeType *node_L, NodeType *node_R) {$/;"	f
+check_a_sampling_segment	bst_sub1.cxx	/^void check_a_sampling_segment(AreaType *area, TrrType *ms) {$/;"	f
+check_all_areas_line	bst_sub3.cxx	/^void check_all_areas_line(AreaType area[], int n) {$/;"	f
+check_area	bst_sub3.cxx	/^void check_area(AreaType *area) {$/;"	f
+check_area_array	bst_sub3.cxx	/^void check_area_array(AreaType area[], int n) {$/;"	f
+check_area_line	bst_sub3.cxx	/^int check_area_line(AreaType *area) {$/;"	f
+check_cal_Bal_Pt_sub	bst.cxx	/^void check_cal_Bal_Pt_sub(AreaType *area, PointType *q,int side) {$/;"	f
+check_calc_Bal_of_2pt	bst_sub1.cxx	/^void check_calc_Bal_of_2pt(PointType *pt0, PointType *pt1, int delay_id, $/;"	f
+check_calc_JR_case2	bst.cxx	/^void check_calc_JR_case2(AreaType *area) {$/;"	f
+check_cluster_size	bst_sub2.cxx	/^void check_cluster_size() {$/;"	f
+check_compare_neighbors	bst.cxx	/^void check_compare_neighbors(int i,int j) {$/;"	f
+check_const_delays	bst_sub1.cxx	/^void check_const_delays(PointType *p1,PointType *p2) {$/;"	f
+check_embedding	bst.cxx	/^void check_embedding(PointType *p0, PointType *p1, AreaType *area) {$/;"	f
+check_fms	bst_sub1.cxx	/^void check_fms(AreaType *area_L, AreaType *area_R, int side) {$/;"	f
+check_fms_sub	bst_sub1.cxx	/^void check_fms_sub(AreaType *area_L, AreaType *area_R, int side) {$/;"	f
+check_lines	bst_sub3.cxx	/^int check_lines(AreaType *area) {$/;"	f
+check_mr	bst.cxx	/^void check_mr(AreaType *area) {$/;"	f
+check_mr2	bst.cxx	/^void check_mr2(AreaType *area) {$/;"	f
+check_mr3	bst.cxx	/^void check_mr3(AreaType *area) {$/;"	f
+check_mr3_sub	bst.cxx	/^void check_mr3_sub(AreaType *area) {$/;"	f
+check_mr_Point	bst.cxx	/^void check_mr_Point(AreaType *area) {$/;"	f
+check_mr_array	bst.cxx	/^void check_mr_array(AreaType area[], int n) {$/;"	f
+check_ms	bst_sub1.cxx	/^void check_ms(TrrType *ms) {$/;"	f
+check_mss	bst_sub1.cxx	/^void check_mss(AreaType *area,AreaType *area_L, AreaType *area_R) {$/;"	f
+check_new_JS	bst.cxx	/^void check_new_JS(AreaType *area) {$/;"	f
+check_pts	bst.cxx	/^void check_pts(AreaType *area, PointType q[], int n) {$/;"	f
+check_rectilinear_line	bst_sub3.cxx	/^void check_rectilinear_line(AreaType  *area) {$/;"	f
+check_region_qsort	IME_code.cxx	/^static void check_region_qsort(AreaSetType *stair) {$/;"	f	file:
+check_region_qsort_sub	IME_code.cxx	/^static void check_region_qsort_sub(AreaSetType *stair, int i) {$/;"	f	file:
+check_root_id	bst.cxx	/^void check_root_id(int root) {$/;"	f
+check_sampling_segment	bst.cxx	/^void check_sampling_segment(AreaType *area,PointType *p0, PointType *p1) {$/;"	f
+check_set_detour_EdgeLen	bst.cxx	/^void check_set_detour_EdgeLen(AreaType *area, PointType pt0, PointType pt1) {$/;"	f
+check_sorted_areas	bst.cxx	/^void check_sorted_areas(AreaType TempArea[], int n_tmparea) {$/;"	f
+check_tmparea	bst_sub1.cxx	/^void check_tmparea(AreaType *tmparea, int n) {$/;"	f
+check_trr	bst_sub1.cxx	/^void check_trr(TrrType *t) {$/;"	f
+check_update_JS	bst.cxx	/^void check_update_JS(AreaType *area, PointType pt[4], int line0type) {$/;"	f
+check_x	bst_sub1.cxx	/^void check_x(AreaType *area, AreaType *area_L, AreaType *area_R, double *x) {$/;"	f
+cls_merging_cost_inc	bst.cxx	/^double cls_merging_cost_inc(int cid) {$/;"	f
+clustertype	bst_header.h	/^typedef struct clustertype {$/;"	s
+colinear	bst_sub1.cxx	/^int colinear(PointType p1, PointType p2, PointType p3) {$/;"	f
+compare_cluster	bst_sub2.cxx	/^int compare_cluster(const void *a, const void *b) {$/;"	f
+compare_neighbors	bst.cxx	/^void compare_neighbors(int i,int j) {$/;"	f
+compare_neighbors_in_bucket	bst.cxx	/^void compare_neighbors_in_bucket(int v,int x,int y) {$/;"	f
+construct_NNG	bst.cxx	/^int construct_NNG(int n) {$/;"	f
+construct_TRR_mr	bst_sub1.cxx	/^void construct_TRR_mr(AreaType *area) {$/;"	f
+construct_TRR_mr_sub	bst_sub1.cxx	/^void construct_TRR_mr_sub(AreaType *area,TrrType *ms0,TrrType *ms1,double d0,$/;"	f
+construct_TreeNode	bst_sub3.cxx	/^void construct_TreeNode(int par, int *index, int obstacle[], int n_obstacle, int dir) {$/;"	f
+construct_mr	bst.cxx	/^void construct_mr(AreaType *area, AreaType *area_L,AreaType *area_R, int mode){$/;"	f
+construct_mr_sub1	bst.cxx	/^void construct_mr_sub1(AreaType *area, AreaType *area_L,AreaType *area_R) {$/;"	f
+construct_mr_sub2	bst.cxx	/^void construct_mr_sub2(AreaType *area, AreaType *area_L,AreaType *area_R) {$/;"	f
+core_mid_point	bst_sub1.cxx	/^void core_mid_point(TrrType *trr, PointType *p) {$/;"	f
+cost	bst_header.h	/^double cost;$/;"	m	class:PairType
+count_merge_pairs	bst.cxx	/^int count_merge_pairs(int n_nodes) { $/;"	f
+count_tree_nodes	bst.cxx	/^void count_tree_nodes(int root, int v, int *n) {$/;"	f
+count_trees	bst_sub1.cxx	/^int count_trees() {$/;"	f
+cp_PointType_array	bst_sub3.cxx	/^int cp_PointType_array(PointType a[], int n, PointType b[]) {$/;"	f
+cp_TmpClusterType	bst_sub2.cxx	/^void cp_TmpClusterType(TmpClusterType *t1, TmpClusterType *t2) {$/;"	f
+cp_area_array	bst_sub3.cxx	/^int cp_area_array(AreaType a[], int n, AreaType b[]) {$/;"	f
+create_one_merging_segment	bst_sub1.cxx	/^void create_one_merging_segment(int v) {$/;"	f
+create_one_ms_sub	bst_sub1.cxx	/^void create_one_ms_sub(int i, double *dd1,double *dd2) {$/;"	f
+debug_calc_JS	bst.cxx	/^void debug_calc_JS(AreaType *area) {$/;"	f
+delay_pt_JS	bst.cxx	/^double delay_pt_JS(int JS_side, int x, int side, int i, double t_from[]) {$/;"	f
+detour_Node	bst_sub1.cxx	/^int detour_Node(int v) {$/;"	f
+dist	bst_header.h	/^  double dist; \/* the distance between its two children *\/$/;"	m	class:AreaType
+distinct	bst_sub2.cxx	/^int distinct(int cp, int cid, int k, int n,  PairType pair[]) {$/;"	f
+distinct_Point	bst_sub3.cxx	/^int distinct_Point(PointType q[], int n) {$/;"	f
+distinct_obstacle	bst_sub3.cxx	/^int distinct_obstacle(int n) {$/;"	f
+do_calc_JS	bst.cxx	/^void do_calc_JS(AreaType *area, AreaType *area_L,AreaType *area_R, int v1, int v2) {$/;"	f
+do_clustering	bst_sub2.cxx	/^void do_clustering(int n, int start_id,int n_clusters) {$/;"	f	file:
+do_compare_neighbors	bst.cxx	/^void do_compare_neighbors(int i,int j) {$/;"	f
+do_skew_allocation	bst_sub2.cxx	/^void do_skew_allocation(int start_id, int n_clusters) {$/;"	f
+draw_a_TRR	bst_sub1.cxx	/^void draw_a_TRR(TrrType *trr) {$/;"	f
+draw_a_buffer	bst_sub1.cxx	/^void draw_a_buffer(FILE *out,int v) {$/;"	f	file:
+draw_buffers	bst_sub1.cxx	/^void draw_buffers (FILE *out) {$/;"	f	file:
+draw_buffers_sub	bst_sub1.cxx	/^void draw_buffers_sub(FILE *out, int v) {$/;"	f	file:
+dtoa	bst_sub1.cxx	/^void dtoa(double x, char s[], int *i) {$/;"	f
+dtoa_sub	bst_sub1.cxx	/^void dtoa_sub(double x, char s[], int *i) {$/;"	f
+element	bst_header.h	/^  int element[BUCKET_CAPACITY];$/;"	m	struct:buckettype
+embed_topology	bst.cxx	/^void embed_topology(int v) {$/;"	f
+embedding	bst.cxx	/^void embedding(int p, int child) {$/;"	f
+embedding_sub	bst.cxx	/^void embedding_sub(int p, int v, PointType pt1, PointType pt2, double edgelen,$/;"	f
+embedding_sub2	bst.cxx	/^void embedding_sub2(int p, int v, PointType pt1, PointType pt2) {$/;"	f
+empty_trr	bst_sub1.cxx	/^int empty_trr(TrrType *t) {$/;"	f
+equal	bst_sub1.cxx	/^int equal(double x,double y) {$/;"	f
+equivalent	bst_sub1.cxx	/^int equivalent(double x,double y, double fuzz) {$/;"	f
+expand_a_dimention	bst_sub3.cxx	/^void expand_a_dimention(int index, double z, int dir) {$/;"	f
+expand_a_dimention_sub	bst_sub3.cxx	/^void expand_a_dimention_sub(int index, double z, int dir) {$/;"	f
+expand_a_dimention_sub2	bst_sub3.cxx	/^int expand_a_dimention_sub2(double z,int dir,int *n_unexp,int unexp[],int expanded[]){$/;"	f
+expand_cluster	bst_sub2.cxx	/^int expand_cluster(int n_clusters, int cid, double ave_t) {$/;"	f	file:
+expand_obstacle	bst_sub3.cxx	/^int expand_obstacle(AreaType *area, int index,double bbox[4],int type){$/;"	f
+find_new_embedding_pt	bst.cxx	/^double find_new_embedding_pt(int p,int v,PointType pt1,PointType pt2) {$/;"	f
+find_new_embedding_pt_sub1	bst.cxx	/^double find_new_embedding_pt_sub1(int p,int v,PointType pt1,PointType pt2) {$/;"	f
+find_new_embedding_pt_sub2	bst.cxx	/^double find_new_embedding_pt_sub2(int p,int v,PointType pt1,PointType pt2) {$/;"	f
+fms_of_line_exist	bst.cxx	/^void fms_of_line_exist(AreaType *area, AreaType *area_L, AreaType *area_R, $/;"	f
+fprint_Point_array	bst_sub1.cxx	/^void fprint_Point_array(FILE *f, int n, PointType pt[]) {$/;"	f	file:
+free_NodeType	bst_sub1.cxx	/^void free_NodeType(NodeType *node) {$/;"	f
+freg	bst_header.h	/^  AreaType  *freg; $/;"	m	class:AreaSetType
+gBoundedSkewTree	bst.cxx	/^BstTree   *gBoundedSkewTree ;$/;"	v
+generate_obstacle_file	bst_sub3.cxx	/^void generate_obstacle_file(char fn[], int n_blocks, int max_coor) {$/;"	f
+generate_terminals	bst_sub3.cxx	/^generate_terminals(char fn[], int max_coor, int n_sinks) {$/;"	f	file:
+get_JR_bbox	bst_sub3.cxx	/^void get_JR_bbox(double bbox[], AreaType *area) {$/;"	f
+get_Manhattan_BS	bst.cxx	/^void get_Manhattan_BS(AreaType *area, int side, TrrType *ms) {$/;"	f
+get_a_sampling_segment	bst.cxx	/^void get_a_sampling_segment(int i, TrrType ms[], double d) { $/;"	f
+get_all_areas	bst_sub1.cxx	/^void get_all_areas(int v, int i) {$/;"	f
+get_an_area	bst_sub1.cxx	/^void get_an_area(NodeType *node, int i) {$/;"	f
+get_area_for_Node	bst_sub1.cxx	/^void get_area_for_Node(int v, int i) {$/;"	f
+get_area_max_delay	bst_sub1.cxx	/^double get_area_max_delay(AreaType *area) {$/;"	f
+get_block_bbox	bst_sub3.cxx	/^void get_block_bbox(double bbox[], ObstacleType *block) {$/;"	f
+get_boundary_segment	bst_sub3.cxx	/^int get_boundary_segment(AreaType *area,AreaType new_area[]) {$/;"	f
+get_cluster_member	bst_sub2.cxx	/^int get_cluster_member(int cid, PointType points[]) {$/;"	f
+get_input_format	bst_sub1.cxx	/^double get_input_format(char fn[]) {$/;"	f
+get_mr_bbox	bst_sub3.cxx	/^void get_mr_bbox(double bbox[], AreaType *area) {$/;"	f
+get_mr_for_line	bst_sub3.cxx	/^void get_mr_for_line(PointType pt, AreaType *area, AreaType *new_area, int dir) {$/;"	f
+get_mr_for_line_sub	bst_sub3.cxx	/^void get_mr_for_line_sub(AreaType *area,AreaType *new_area,int begin,int end) {$/;"	f
+get_n_below_ave_t	bst_sub2.cxx	/^int get_n_below_ave_t(int n, int cluster[], double ave_t) {$/;"	f
+get_path_from_SPT	bst_sub3.cxx	/^int get_path_from_SPT(PointType path[]) {$/;"	f
+get_the_center	bst_sub2.cxx	/^double get_the_center(int L, int R,  PointType points[], TrrType *core) {$/;"	f	file:
+iDumpMsg	facility.cxx	/^void iDumpMsg ($/;"	f
+iDumpOneLine	facility.cxx	/^void iDumpOneLine ($/;"	f
+iRunTime	facility.cxx	/^void iRunTime() {$/;"	f
+iShowTime	facility.cxx	/^void iShowTime() {$/;"	f
+id	bst_header.h	/^  int n, id, marked;$/;"	m	class:TmpClusterType
+id	bst_header.h	/^  int parent, L, R, id, root_id;$/;"	m	class:NodeType
+id	bst_sub3.h	/^  int parent, L, R, id, level;$/;"	m	struct:treenodetype
+in_bbox	bst_sub1.cxx	/^int in_bbox(double x, double y, double x1,double y1, double x2,double y2) {$/;"	f
+in_small_clusters	bst_sub2.cxx	/^int in_small_clusters(int k, int cluster[]) {$/;"	f
+init	bst.cxx	/^void init() {$/;"	f
+init_BSTs_at_level	bst.cxx	/^void init_BSTs_at_level() {$/;"	f
+init_ExG_DME	bst.cxx	/^int init_ExG_DME(int cid, int *u) {$/;"	f	file:
+init_S	bst_sub3.cxx	/^void init_S(PointType p1, PointType p2, double range) {$/;"	f
+init_a_Node	bst.cxx	/^void init_a_Node(int i) {$/;"	f
+init_all_Nodes	bst.cxx	/^void init_all_Nodes() {$/;"	f
+init_calc_whole_BST	bst.cxx	/^void init_calc_whole_BST() {$/;"	f	file:
+init_clusters	bst_sub2.cxx	/^void init_clusters(int L, int PostOpt) {$/;"	f
+init_construct_TreeNode	bst_sub3.cxx	/^void init_construct_TreeNode() {$/;"	f
+init_marked	bst_sub1.cxx	/^void init_marked(int v) {$/;"	f
+init_nearest_neighbor	bst.cxx	/^void init_nearest_neighbor(int v) {$/;"	f
+init_pairs_to_merge	bst.cxx	/^int init_pairs_to_merge(int n_nodes) { $/;"	f
+init_path_finder	bst_sub3.cxx	/^void init_path_finder(int source,int dest) {$/;"	f
+init_skew_allocation	bst.cxx	/^void init_skew_allocation() {$/;"	f
+int_min3	bst_sub2.cxx	/^int int_min3(int x, int y, int z) {$/;"	f
+itoa	bst_sub1.cxx	/^void itoa(int n, char s[], int *i) {$/;"	f
+k_Parameter	bst.cxx	/^int k_Parameter = -1;$/;"	v
+k_center	bst_sub2.cxx	/^void k_center(int n_clusters) {$/;"	f
+legal_detour_path	bst_sub3.cxx	/^int legal_detour_path(PointType p1, PointType p2) {$/;"	f
+level	bst_sub1.cxx	/^int level(int v) {$/;"	f
+level	bst_sub3.h	/^  int parent, L, R, id, level;$/;"	m	struct:treenodetype
+line	bst_header.h	/^  PointType line[2][2];$/;"	m	class:AreaType
+line2ms	bst_sub1.cxx	/^void line2ms(TrrType *ms, PointType p1, PointType p2) {$/;"	f
+lineIntersect	bst_sub1.cxx	/^int lineIntersect(PointType *p, PointType p1, PointType p2, PointType p3, $/;"	f
+line_into_rectangle	bst_sub3.cxx	/^int line_into_rectangle(PointType  *p0, PointType *p1, ObstacleType *block) {$/;"	f
+line_to_ms	bst_sub1.cxx	/^void line_to_ms(TrrType *ms,double x1,double y1,double x2,double y2) {$/;"	f
+line_x_rectangle	bst_sub3.cxx	/^int line_x_rectangle(PointType *p0, PointType *p1, PointType q[], $/;"	f
+linedist	bst_sub1.cxx	/^double linedist(PointType lpt0,PointType lpt1, PointType lpt2, PointType lpt3,$/;"	f
+local_improvement	bst_sub2.cxx	/^void local_improvement(int n_clusters) {$/;"	f	file:
+m_bound	foundation/MyInterval.h	/^     NN m_bound [2];$/;"	m	class:F_Interval
+m_bstdme	bstdme.h	/^   BstTree *m_bstdme ;$/;"	m	class:BST_DME
+m_candiRoot	bst_header.h	/^   vector <NodeType *> m_candiRoot ;$/;"	m	class:BstTree
+m_coord	foundation/Coordinate.h	/^        NN  m_coord [ 2] ;$/;"	m	class:F_Coord
+m_ctrr	bst_header.h	/^   TrrType m_ctrr ;$/;"	m	class:BstTree
+m_delayModel	bst_header.h	/^   BST_DME::DelayModelType   m_delayModel ;$/;"	m	class:BstTree
+m_inputObstructionFileName	bst_header.h	/^   string m_inputObstructionFileName ;$/;"	m	class:BstTree
+m_inputSinksFileName	bst_header.h	/^   string m_inputSinksFileName ;$/;"	m	class:BstTree
+m_inputTopologyFileName	bst_header.h	/^   string m_inputTopologyFileName ; $/;"	m	class:BstTree
+m_nterms	bst_header.h	/^   unsigned m_nterms ; \/\/ num of termianls $/;"	m	class:BstTree
+m_pucap	bst_header.h	/^   double m_pures[2], m_pucap[2]; \/*per unit resistance and capacitance *\/$/;"	m	class:BstTree
+m_pures	bst_header.h	/^   double m_pures[2], m_pucap[2]; \/*per unit resistance and capacitance *\/$/;"	m	class:BstTree
+m_skewBound	bst_header.h	/^   double  m_skewBound ;$/;"	m	class:BstTree
+m_stnPt	bst_header.h	/^  PointType m_stnPt ;$/;"	m	class:NodeType
+m_tempNode	bst_header.h	/^   vector <NodeType *> m_tempNode ;$/;"	m	class:BstTree
+m_treeNode	bst_header.h	/^   vector <NodeType *> m_treeNode ;$/;"	m	class:BstTree
+main	main.cxx	/^main(int argc, char *argv[]) {$/;"	f
+make_1D_TRR	bst_sub1.cxx	/^void make_1D_TRR(TrrType *trr,TrrType *core)  {$/;"	f
+make_core	bst_sub1.cxx	/^void make_core(TrrType *trr,TrrType *core)  {$/;"	f
+make_intersect	bst_sub1.cxx	/^void make_intersect( TrrType *trr1, TrrType *trr2, TrrType *t ) {$/;"	f
+make_intersect_sub	bst_sub1.cxx	/^void make_intersect_sub( TrrType *trr1, TrrType *trr2, TrrType *t ) {$/;"	f
+mark_cluster	bst_sub2.cxx	/^void mark_cluster(int cid) {$/;"	f
+marked	bst_header.h	/^  int n, id, marked;$/;"	m	class:TmpClusterType
+max	foundation/Coordinate.h	/^      NN     max, min;  \/* (max, min) delays after merging *\/$/;"	m	class:F_Point
+max3	bst_sub1.cxx	/^double max3(double x1, double x2, double x3)$/;"	f
+max4	bst_sub1.cxx	/^double max4(double x1, double x2, double x3,double x4)$/;"	f
+maxskew	bst_sub1.cxx	/^double maxskew(NodeType *node, int mode) {$/;"	f
+maxskew_sub1	bst_sub1.cxx	/^double maxskew_sub1(NodeType *node) {$/;"	f
+maxskew_sub2	bst_sub1.cxx	/^double maxskew_sub2(NodeType *node) {$/;"	f
+merge_cost	bst_sub1.cxx	/^double merge_cost(NodeType *node) {$/;"	f
+merging_segment_area	bst_sub1.cxx	/^int merging_segment_area(AreaType  *area) {$/;"	f
+min	foundation/Coordinate.h	/^      NN     max, min;  \/* (max, min) delays after merging *\/$/;"	m	class:F_Point
+min3	bst_sub1.cxx	/^double min3(double x1, double x2, double x3)$/;"	f
+min4	bst_sub1.cxx	/^double min4(double x1, double x2, double x3,double x4)$/;"	f
+minskew	bst_sub1.cxx	/^double minskew(NodeType *node, int mode) {$/;"	f
+minskew_BME	bst_sub1.cxx	/^double minskew_BME(NodeType *node) {$/;"	f
+minskew_IME	bst_sub1.cxx	/^double minskew_IME(NodeType *node) {$/;"	f
+minskew_IME_sub	bst_sub1.cxx	/^double minskew_IME_sub(NodeType *node, int i) {$/;"	f
+modify_area_case1	bst_sub3.cxx	/^int modify_area_case1(AreaType *area, AreaType out_area[]){$/;"	f
+modify_area_case2	bst_sub3.cxx	/^int modify_area_case2(AreaType *area, AreaType area_out[]){$/;"	f
+modify_area_case2_sub	bst_sub3.cxx	/^int modify_area_case2_sub(AreaType *area, AreaType area_out[],$/;"	f
+modify_area_case2_sub2	bst_sub3.cxx	/^void modify_area_case2_sub2(AreaType *area, AreaType area_out[],$/;"	f
+modify_area_case2_sub3	bst_sub3.cxx	/^void modify_area_case2_sub3(AreaType *area, AreaType area_out[], int *n_out, $/;"	f
+modify_area_sub0	bst_sub3.cxx	/^void modify_area_sub0(AreaType area_out[], int *n_out){$/;"	f
+modify_area_sub1	bst_sub3.cxx	/^void modify_area_sub1(AreaType *area, AreaType tmpArea[],int *n,$/;"	f
+modify_area_sub2	bst_sub3.cxx	/^void modify_area_sub2(AreaType *area, AreaType tmpArea[], int *n, $/;"	f
+modify_area_sub3	bst_sub3.cxx	/^int modify_area_sub3(AreaType *area, AreaType tmpArea[], int *n,  $/;"	f
+modify_blocked_areas	bst_sub3.cxx	/^void modify_blocked_areas(AreaType area[], int *n, int b1, int b2) {$/;"	f
+modify_blocked_areas_by_detour	bst_sub3.cxx	/^int modify_blocked_areas_by_detour(AreaType *area, AreaType out_area[]) {$/;"	f
+modify_blocked_areas_no_detour	bst_sub3.cxx	/^int modify_blocked_areas_no_detour(AreaType *area, AreaType new_area[]) {$/;"	f
+modify_blocked_areas_sub	bst_sub3.cxx	/^int modify_blocked_areas_sub(AreaType area[], int n, AreaType area2[], $/;"	f
+modify_mr_case2	bst_sub3.cxx	/^void modify_mr_case2(int n, AreaType area[]) {$/;"	f
+modify_mr_case2_sub	bst_sub3.cxx	/^void modify_mr_case2_sub(AreaType *area) {$/;"	f
+modify_ms_JS	bst_sub3.cxx	/^void modify_ms_JS(AreaType *area) {$/;"	f
+modify_rec_JS_line	bst_sub3.cxx	/^void modify_rec_JS_line(AreaType *area) {$/;"	f
+modify_rectilinear_line	bst_sub3.cxx	/^void modify_rectilinear_line(AreaType *area, int linetype, int i, double z) {$/;"	f
+mr	bst_header.h	/^  PointType mr[MAX_mr_PTS]; \/* skew turning pts + vertices *\/$/;"	m	class:AreaType
+mr_between_JS	bst.cxx	/^void mr_between_JS(AreaType *area,int side, double cap[2]) {$/;"	f
+mr_on_JS	bst.cxx	/^void mr_on_JS(AreaType *area,int side, AreaType *area_L,AreaType *area_R) {$/;"	f
+mr_on_JS_sub	bst.cxx	/^void mr_on_JS_sub(int side,int m[2]) {$/;"	f
+ms	bst_header.h	/^  TrrType  *ms;  \/* merging segment in ZST, and TRR in BST *\/  $/;"	m	class:NodeType
+ms	bst_header.h	/^  TrrType  *ms;$/;"	m	class:TmpClusterType
+ms2line	bst_sub1.cxx	/^void ms2line(TrrType *ms, PointType *p1, PointType *p2) {$/;"	f
+ms2line_delays	bst.cxx	/^void ms2line_delays(AreaType *area, TrrType *ms, PointType *p0,$/;"	f
+ms_distance	bst_sub1.cxx	/^double ms_distance(TrrType *ms1,TrrType *ms2) {$/;"	f
+ms_to_line	bst_sub1.cxx	/^void ms_to_line(TrrType *ms,double *x1,double *y1,double *x2,double *y2) {$/;"	f
+ms_type	bst_sub1.cxx	/^int ms_type(TrrType *trr) {$/;"	f
+n	bst_header.h	/^  int n, id, marked;$/;"	m	class:TmpClusterType
+n_Fms_Pt	bst.cxx	/^int n_Fms_Pt[2];$/;"	v
+n_JR	bst.cxx	/^int  n_JR[2];$/;"	v
+n_JS	bst.cxx	/^int  n_JS[2];$/;"	v
+n_L_sampling	bst.cxx	/^int N_Sampling = 7, n_L_sampling, n_R_sampling; $/;"	v
+n_R_sampling	bst.cxx	/^int N_Sampling = 7, n_L_sampling, n_R_sampling; $/;"	v
+n_area	bst_header.h	/^  int   n_area, ca;$/;"	m	class:NodeType
+n_mr	bst_header.h	/^  int n_mr;   \/* number of vertices plus skew turning points *\/$/;"	m	class:AreaType
+n_vertex	bst_sub3.h	/^  int n_vertex;$/;"	m	struct:obstacletype
+nearest_vertex	bst.cxx	/^int nearest_vertex(AreaType *area, PointType lpt) {$/;"	f
+new_IME_mergeNode	bst.cxx	/^void new_IME_mergeNode(NodeType *node, NodeType *node_L, NodeType *node_R, $/;"	f
+new_add_Bal_Pt	bst.cxx	/^void new_add_Bal_Pt(int side,PointType *pt, double d0, double d1) {$/;"	f
+new_area_by_detour_sub	bst_sub3.cxx	/^void new_area_by_detour_sub(AreaType *area, PointType path[], int n, int k,$/;"	f
+new_area_by_detour_sub2	bst_sub3.cxx	/^int  new_area_by_detour_sub2(AreaType *area, PointType path[], int n, int k,$/;"	f
+new_calc_merge_distance	bst_sub1.cxx	/^void new_calc_merge_distance(PointType pt1, PointType pt2, int delay_id,$/;"	f
+new_dtoa	bst_sub1.cxx	/^void new_dtoa(double x, char s[]) {$/;"	f
+npoly	bst_header.h	/^  int npoly;$/;"	m	class:AreaSetType
+npts	bst_header.h	/^  int npts;    \/* number of vertices *\/$/;"	m	class:AreaType
+num	bst_header.h	/^  int num;    \/* number of elements in the bucket *\/   $/;"	m	struct:buckettype
+obstacletype	bst_sub3.h	/^typedef struct obstacletype {$/;"	s
+on_line_segment	bst_sub1.cxx	/^int on_line_segment(double x,double y,double x1,double y1,double x2,double y2)$/;"	f
+operator []	foundation/Coordinate.h	/^        NN  operator[] ( TwoStates i) const {$/;"	f	class:F_Coord
+opt_Merge3Trees	bst.cxx	/^void opt_Merge3Trees(int v, int L, int R) {$/;"	f
+opt_Merge3Trees_sub1	bst.cxx	/^void opt_Merge3Trees_sub1(int v, int L, int R) {$/;"	f
+opt_Merge4Trees	bst.cxx	/^void opt_Merge4Trees(int v, int L, int R) {$/;"	f
+pair_compare_inc	bst.cxx	/^int pair_compare_inc(const void  *p1, const void  *q1) {$/;"	f
+pair_compare_inc_sub1	bst.cxx	/^int pair_compare_inc_sub1(PairType  *p, PairType  *q) {$/;"	f
+pair_compare_inc_sub2	bst.cxx	/^int pair_compare_inc_sub2(PairType  *p, PairType  *q) {$/;"	f
+pairs_to_merge	bst.cxx	/^int pairs_to_merge(int n_nodes) { $/;"	f
+parallel_line	bst_sub1.cxx	/^int parallel_line(PointType p1,PointType p2,PointType p3,PointType p4) {$/;"	f
+parent	bst_header.h	/^  int parent, L, R, id, root_id;$/;"	m	class:NodeType
+parent	bst_sub3.h	/^  int parent, L, R, id, level;$/;"	m	struct:treenodetype
+parse_argument	bst.cxx	/^void parse_argument(int argc, char *argv[], BstTree &tree ) {$/;"	f
+parse_argument	main.cxx	/^unsigned parse_argument( unsigned argc, char *argv[], $/;"	f
+path_between_JSline	bst_sub3.cxx	/^double path_between_JSline(AreaType *area, PointType line[2][2],PointType path[100],int *n){$/;"	f
+path_between_JSline_sub	bst_sub3.cxx	/^double path_between_JSline_sub(AreaType *area, PointType line[2][2], PointType path[100], int *n, PointType pt[]) {$/;"	f
+path_finder	bst_sub3.cxx	/^double path_finder(PointType p1, PointType p2, PointType path[], int *n_hops) {$/;"	f
+path_finder_sub	bst_sub3.cxx	/^double path_finder_sub(int source,int dest,PointType path[], int *n_hops){$/;"	f
+path_finder_sub2	bst_sub3.cxx	/^int path_finder_sub2(int cp) {$/;"	f
+pattern	bst_header.h	/^  char pattern;   \/* routing pattern *\/$/;"	m	class:NodeType
+point_compare_dec	bst.cxx	/^static int point_compare_dec(const void  *p, const void  *q) {$/;"	f	file:
+point_compare_inc	bst_sub1.cxx	/^static int point_compare_inc(const void  *p1, const void  *q1) {$/;"	f	file:
+print_BST_Mode	bst.cxx	/^void print_BST_Mode() {$/;"	f
+print_BST_delay_error	bst_sub1.cxx	/^void print_BST_delay_error(int v, int L, int R, double tL, double tR) {$/;"	f	file:
+print_Bal_Pt	bst_sub1.cxx	/^void print_Bal_Pt(NodeType *node) {$/;"	f
+print_Bal_Pt_sub	bst_sub1.cxx	/^void print_Bal_Pt_sub(NodeType *node, int i) {$/;"	f
+print_Fms_Pt	bst_sub1.cxx	/^void print_Fms_Pt(NodeType *node) {$/;"	f
+print_Fms_Pt_sub	bst_sub1.cxx	/^void print_Fms_Pt_sub(NodeType *node, int i) {$/;"	f
+print_IME_areas	bst_sub1.cxx	/^void print_IME_areas(NodeType *node,NodeType *node_L, NodeType *node_R,int n, int m) {$/;"	f
+print_JR	bst_sub1.cxx	/^void print_JR(FILE *f, NodeType *node) {$/;"	f	file:
+print_JR_slopes	bst.cxx	/^void print_JR_slopes(int n, double *skew_rate, $/;"	f
+print_Js	bst_sub1.cxx	/^void print_Js(FILE *f, NodeType *node) {$/;"	f
+print_MS	bst_sub1.cxx	/^void print_MS(FILE *f) {$/;"	f
+print_Point	bst_sub1.cxx	/^void print_Point(FILE *f, const PointType& pt) {$/;"	f
+print_S	bst_sub3.cxx	/^void print_S() {$/;"	f
+print_Skew_B	bst_sub1.cxx	/^void print_Skew_B(FILE *f, double skew) {$/;"	f
+print_a_JS	bst_sub1.cxx	/^void print_a_JS(FILE *f, NodeType *node) {$/;"	f
+print_a_JS_sub	bst_sub1.cxx	/^void print_a_JS_sub(FILE *f, NodeType *node, int i) {$/;"	f
+print_a_trr	bst_sub1.cxx	/^void print_a_trr(TrrType *trr) {$/;"	f
+print_all_JS	bst_sub1.cxx	/^void print_all_JS(FILE *f, int v) {$/;"	f
+print_all_JS_sub	bst_sub1.cxx	/^void print_all_JS_sub(FILE *f, int v) {$/;"	f
+print_all_merging_regions	bst_sub1.cxx	/^void print_all_merging_regions(FILE *f, int v) {$/;"	f
+print_an_obstacle	bst_sub3.cxx	/^void print_an_obstacle(FILE *f, ObstacleType block, int index) {$/;"	f
+print_answer	bst.cxx	/^print_answer(const char fn[],int v, bool fixedTopology ) {$/;"	f	file:
+print_area	bst_sub1.cxx	/^void print_area(AreaType *area) {$/;"	f
+print_area_info	bst_sub1.cxx	/^void print_area_info(AreaType *area) {$/;"	f
+print_area_line	bst_sub1.cxx	/^void print_area_line(AreaType *area) {$/;"	f
+print_area_line_sub	bst_sub1.cxx	/^void print_area_line_sub(FILE *f, AreaType *area) {$/;"	f
+print_area_sub	bst_sub1.cxx	/^void print_area_sub(FILE *f, AreaType *area) {$/;"	f	file:
+print_bst	bst_sub1.cxx	/^void print_bst(const char* fn, int v, double Tcost, double Tdist) {$/;"	f
+print_bst_at_level	bst_sub1.cxx	/^void print_bst_at_level(FILE *out, int L) {$/;"	f	file:
+print_bst_sub1	bst_sub1.cxx	/^void print_bst_sub1 (FILE *out, int v, const char* fn) {$/;"	f	file:
+print_bst_sub2	bst_sub1.cxx	/^void print_bst_sub2(FILE *f, int v) {$/;"	f	file:
+print_bst_sub3	bst_sub1.cxx	/^void print_bst_sub3(FILE *f, int v) {$/;"	f
+print_buffer_delay_info	bst_sub1.cxx	/^void print_buffer_delay_info(int L) {$/;"	f
+print_child_region	bst_sub1.cxx	/^void print_child_region(NodeType *node) {$/;"	f
+print_cluster_cost	bst_sub1.cxx	/^void print_cluster_cost(double cost) {$/;"	f
+print_cluster_cost_at_level	bst_sub1.cxx	/^void print_cluster_cost_at_level(int L, double wl[], double cap[]) {$/;"	f
+print_cluster_info	bst_sub2.cxx	/^void print_cluster_info(int n_clusters, double ave_t, double max_t, $/;"	f
+print_clusters	bst_sub2.cxx	/^void print_clusters(int n_clusters, PointType center[]) {$/;"	f
+print_clusters_sub	bst_sub2.cxx	/^void print_clusters_sub(FILE *f, int n_clusters, PointType center[]) {$/;"	f
+print_current_time	bst.cxx	/^void print_current_time() {$/;"	f
+print_double_array	bst_sub1.cxx	/^void print_double_array(double *a, int  n) {$/;"	f
+print_header	bst.cxx	/^void print_header( bool fixed_top) {$/;"	f
+print_inputfile	bst_sub1.cxx	/^void print_inputfile(char fn[]) {$/;"	f
+print_max_n_mr	bst_sub1.cxx	/^void print_max_n_mr() {$/;"	f
+print_max_npts	bst_sub1.cxx	/^void print_max_npts() {$/;"	f
+print_merging_tree	bst_sub1.cxx	/^void print_merging_tree (const char* fn, int v) {$/;"	f
+print_merging_tree_sub	bst_sub1.cxx	/^void print_merging_tree_sub(FILE *f, int i) {$/;"	f	file:
+print_n_region_type	bst_sub1.cxx	/^void print_n_region_type() {$/;"	f
+print_node	bst_sub1.cxx	/^void print_node(NodeType *node) {$/;"	f
+print_node_info	bst_sub1.cxx	/^void print_node_info(NodeType *node) {$/;"	f
+print_node_informatio	bst_sub1.cxx	/^void print_node_informatio(NodeType *node,NodeType *node_L, NodeType *node_R) {$/;"	f
+print_node_sub	bst_sub1.cxx	/^void print_node_sub(FILE *f, NodeType *node) {$/;"	f	file:
+print_obstacles	bst_sub3.cxx	/^void print_obstacles( const string &fn){$/;"	f
+print_obstacles_sub	bst_sub3.cxx	/^void print_obstacles_sub(FILE *f) {$/;"	f
+print_overlapped_regions	bst_sub1.cxx	/^void print_overlapped_regions() {$/;"	f
+print_path	bst_sub3.cxx	/^void print_path(FILE *f, PointType path[], int n) {$/;"	f
+print_run	bst.cxx	/^void print_run(int L, int i, int n_trees) {$/;"	f
+print_sinks	bst_sub1.cxx	/^void print_sinks (FILE *f, const char fn[]) {$/;"	f	file:
+print_top_sub	bst_sub1.cxx	/^void print_top_sub(FILE *f, int v) {$/;"	f	file:
+print_topology	bst_sub1.cxx	/^void print_topology(const char fn[], int v, double Tcost, double Tdist) {$/;"	f
+print_vertices	bst_sub1.cxx	/^void print_vertices(NodeType *node) {$/;"	f
+print_vertices_sub	bst_sub1.cxx	/^void print_vertices_sub(FILE *f, AreaType *area) {$/;"	f
+pt2TRR_distance	bst_sub1.cxx	/^double pt2TRR_distance(PointType *pt, PointType pts[], int n) {$/;"	f
+pt2TRR_distance_sub	bst_sub1.cxx	/^double pt2TRR_distance_sub(PointType *pt, TrrType *trr) {$/;"	f
+pt2cluster_dist	bst_sub2.cxx	/^int pt2cluster_dist(int k, int cid, double *min_dist) {$/;"	f
+pt2linedist	bst_sub1.cxx	/^double pt2linedist(PointType p1, PointType p2, PointType p3, PointType *ans) {$/;"	f
+pt2linedist_case_ms	bst_sub1.cxx	/^double pt2linedist_case_ms(PointType p1, PointType p2, PointType p3, $/;"	f
+pt2linedist_sub	bst_sub1.cxx	/^int pt2linedist_sub(PointType p1, PointType p2, PointType p3,$/;"	f
+pt2ms_distance	bst_sub1.cxx	/^double pt2ms_distance(PointType *pt, TrrType *ms) {$/;"	f
+pt_delay_increase	bst_sub1.cxx	/^double pt_delay_increase(double pat, double cap, PointType *q0, PointType *q1) {$/;"	f
+pt_on_line_segment	bst_sub1.cxx	/^int pt_on_line_segment(PointType pt,PointType pt1,PointType pt2)$/;"	f
+pt_outside_a_rectangle	bst_sub3.cxx	/^int pt_outside_a_rectangle(PointType *pt, ObstacleType *block) {$/;"	f
+pt_outside_rectangles	bst_sub3.cxx	/^int pt_outside_rectangles(PointType  *pt) {$/;"	f
+pt_skew	bst_sub1.cxx	/^double pt_skew(PointType pt) {$/;"	f
+pts2TRR	bst_sub1.cxx	/^void pts2TRR(PointType pts[], int n, TrrType *trr) {$/;"	f
+radius	bst_sub1.cxx	/^double radius(TrrType *trr)  {$/;"	f
+read_clustering_info	bst_sub1.cxx	/^void read_clustering_info(char ClusterFile[]) {$/;"	f
+read_input_file	bst_sub1.cxx	/^void read_input_file(const string &fn ) {$/;"	f
+read_input_topology	bst_sub1.cxx	/^void read_input_topology( const string &fn ) {$/;"	f
+read_obstacle_file	bst_sub3.cxx	/^void read_obstacle_file( const string &fn) {$/;"	f
+read_obstacle_file_sub	bst_sub3.cxx	/^void read_obstacle_file_sub(FILE *f) {$/;"	f
+recalculate_JS	bst_sub1.cxx	/^void recalculate_JS() {$/;"	f
+recalculate_MS	bst.cxx	/^void recalculate_MS(AreaType *area, TrrType *trr) {$/;"	f
+redundant_area	bst.cxx	/^int redundant_area(AreaType tmparea[], int n, double newcap, double newskew ) {$/;"	f
+remove_epsilon_err	bst_sub1.cxx	/^void remove_epsilon_err(PointType *q) {$/;"	f
+repeated_pts	bst.cxx	/^int repeated_pts(PointType q[], int n, PointType pt) {$/;"	f
+reverse_mr	bst_sub3.cxx	/^void reverse_mr(AreaType *area) {$/;"	f
+rm_center	bst_sub2.cxx	/^void rm_center(int cid) {$/;"	f
+rm_redundant_JR_pt	bst.cxx	/^void rm_redundant_JR_pt(int side) {$/;"	f
+rm_same_JR_turn_pts	bst.cxx	/^void rm_same_JR_turn_pts(int side) {$/;"	f
+rm_same_pts_on_mr	bst.cxx	/^void rm_same_pts_on_mr(AreaType *area) {$/;"	f
+rm_same_pts_on_sorted_array	bst.cxx	/^int rm_same_pts_on_sorted_array(PointType q[], int n) {$/;"	f
+root_id	bst_header.h	/^  int parent, L, R, id, root_id;$/;"	m	class:NodeType
+same_Point	bst_sub1.cxx	/^int same_Point(PointType p1, PointType p2) {$/;"	f
+same_line	bst_sub1.cxx	/^int same_line(PointType p0,PointType p1,PointType q0,PointType q1) {$/;"	f
+same_test_pt	bst_sub3.cxx	/^int same_test_pt(PointType p1, PointType p2, PointType p[3][2]) {$/;"	f
+selct_buffer_size	bst.cxx	/^void selct_buffer_size (int L, int n_buffer, int buffered_Node[]) {$/;"	f	file:
+selct_buffer_size_sub	bst.cxx	/^void selct_buffer_size_sub (int L, int n_buffer, int buffered_Node[]) {$/;"	f	file:
+set_ClusterDelay_CASE1	bst.cxx	/^void set_ClusterDelay_CASE1(AreaType *area0, AreaType *area1, double L, $/;"	f
+set_ClusterDelay_CASE2	bst.cxx	/^void set_ClusterDelay_CASE2(AreaType *area_L,AreaType *area_R, double x,$/;"	f
+set_ClusterDelay_sub	bst.cxx	/^void set_ClusterDelay_sub(int v) {$/;"	f
+set_Fms_Pt_min_delay	bst.cxx	/^double set_Fms_Pt_min_delay(AreaType *area,int side, PointType *p0,$/;"	f
+set_K	bst_sub1.cxx	/^void set_K() {$/;"	f
+set_MaxClusterDelay	bst.cxx	/^void set_MaxClusterDelay(int cid) {$/;"	f
+set_MaxClusterDelay_sub	bst.cxx	/^void set_MaxClusterDelay_sub(int v) {$/;"	f
+set_R_buffer_at_Node	bst.cxx	/^void set_R_buffer_at_Node(double target_delay, int x) {$/;"	f
+set_R_buffer_size	bst.cxx	/^void set_R_buffer_size( int  t) {$/;"	f
+set_StubLen_by_ClusterDelay	bst.cxx	/^double set_StubLen_by_ClusterDelay(AreaType *area,double delay) {$/;"	f
+set_SuperRoot	bst_sub1.cxx	/^void set_SuperRoot() {$/;"	f
+set_area_StubLen2	bst.cxx	/^void set_area_StubLen2(AreaType  *area, double *d0, double *d1) {$/;"	f
+set_delay_for_mss	bst.cxx	/^void set_delay_for_mss(AreaType *area) {$/;"	f
+set_detour_EdgeLen	bst.cxx	/^void set_detour_EdgeLen(AreaType *area, const int side ) {$/;"	f
+set_pt_coord_case2	bst.cxx	/^void set_pt_coord_case2(int side_loc, PointType *pt, double d) {$/;"	f
+set_sibling	bst.cxx	/^void set_sibling(int o,int p,int q) {$/;"	f
+show_NNG_infomation	bst.cxx	/^void show_NNG_infomation(int n, int k1 ) {$/;"	f
+shrink_an_obstacle	bst_sub3.cxx	/^void shrink_an_obstacle(ObstacleType *block, double s) {$/;"	f
+sibling	bst.cxx	/^int sibling(int p,int q) {$/;"	f
+sink_move_compare_inc	sink_move.cxx	/^int sink_move_compare_inc(const void *a, const void *b) {$/;"	f
+skewchecking	bst.cxx	/^double skewchecking(int v) {$/;"	f
+sol_equation	bst.cxx	/^double sol_equation(double A, double B, double C) {$/;"	f	file:
+sort_cluster	bst_sub2.cxx	/^void sort_cluster(int n_clusters, int cluster[]) {$/;"	f
+sort_pts_on_line	bst_sub1.cxx	/^void sort_pts_on_line(PointType p[], int n) {$/;"	f
+store_an_area	bst_sub1.cxx	/^void store_an_area(NodeType *node1, NodeType *node2, int n) {$/;"	f
+store_last_n_areas_IME	bst_sub1.cxx	/^void store_last_n_areas_IME(NodeType *node,AreaSetType *stair) {$/;"	f
+store_n_areas	bst_sub1.cxx	/^void store_n_areas(AreaType tmparea[], int n, NodeType *node) {$/;"	f
+store_n_areas_IME	bst_sub1.cxx	/^void store_n_areas_IME(NodeType *node,AreaSetType *result) {$/;"	f
+subtree_cost	bst_header.h	/^  double subtree_cost;  \/* the (wire) cost of tree rooted at this node *\/$/;"	m	class:AreaType
+t	bst_header.h	/^  double capac, t;$/;"	m	class:TmpClusterType
+t	foundation/Coordinate.h	/^      NN     t;    \/* usded for sorting *\/$/;"	m	class:F_Point
+tMAX	foundation/BaseDefine.h	10;"	d
+tMIN	foundation/BaseDefine.h	9;"	d
+tPrintTotalLength	main.cxx	/^void tPrintTotalLength ($/;"	f
+tReadInputHeader	bst_sub1.cxx	/^bool tReadInputHeader ( const string &fn ) {$/;"	f
+tReadInputNodes	bst_sub1.cxx	/^tReadInputNodes ( const string &fn ) {$/;"	f	file:
+tSplit	bst_sub1.cxx	/^tSplit ( char *buf, vector< char * > tokv, const char *sep = 0 )$/;"	f	file:
+test_path_finder	bst_sub3.cxx	/^void test_path_finder(FILE *f) {$/;"	f
+test_path_finder_sub	bst_sub3.cxx	/^void test_path_finder_sub(FILE *f, PointType p0, PointType p1) {$/;"	f
+trace	bst_sub1.cxx	/^void trace() {$/;"	f
+treenodetype	bst_sub3.h	/^typedef struct treenodetype {$/;"	s
+trrContain	bst_sub1.cxx	/^int trrContain(TrrType *t1,TrrType *t2) {$/;"	f
+unblocked_segment	bst_sub3.cxx	/^int unblocked_segment(PointType *p0, PointType *p1) {$/;"	f
+unblocked_segment_sub1	bst_sub3.cxx	/^int unblocked_segment_sub1(PointType *p0, PointType *p1, int i) {$/;"	f
+unblocked_segment_sub2	bst_sub3.cxx	/^int unblocked_segment_sub2(PointType *p0, PointType *p1) {$/;"	f
+unbuf_capac	bst_header.h	/^  double capac, unbuf_capac;    \/* capacitance of the subtree *\/$/;"	m	class:AreaType
+updateRootId	bst.cxx	/^void updateRootId(int root_id,int v) {$/;"	f
+update_CandiRoot	bst.cxx	/^void update_CandiRoot(int v, int root_id, NodeType *node_R) {$/;"	f
+update_Cluster	bst.cxx	/^void update_Cluster(int n_nodes) {$/;"	f	file:
+update_JS	bst.cxx	/^void update_JS(AreaType *area, PointType pt[4], PointType pts[2]) {$/;"	f
+update_JS_case1	bst.cxx	/^void update_JS_case1(AreaType *area, PointType pt[4], PointType pts[2],$/;"	f
+update_JS_case_ms	bst.cxx	/^void update_JS_case_ms(double dist) {$/;"	f
+update_NearestCenter	bst_sub2.cxx	/^void update_NearestCenter(int cp,int center){$/;"	f
+update_free_node_info	bst_sub3.cxx	/^void update_free_node_info(int cp, int i) {$/;"	f
+update_neighbors	bst.cxx	/^void update_neighbors(int x,int y, double cost1) {$/;"	f
+update_neighbors_sub	bst.cxx	/^void update_neighbors_sub(int x,int y, double cost) {$/;"	f
+vertex	bst_header.h	/^  int vertex[MAXPTS];   \/* vertices *\/$/;"	m	class:AreaType
+vertex	bst_sub3.h	/^  PointType vertex[4];$/;"	m	struct:obstacletype
+x	bst_header.h	/^double x;   \/* ever min merging cost since this cluster exists *\/$/;"	m	struct:clustertype
+x	bst_header.h	/^int x, y;$/;"	m	class:PairType
+x	foundation/Coordinate.h	/^      NN     x,y;   \/* coordinate *\/ $/;"	m	class:F_Point
+xhi	foundation/Trr.h	/^  NN xlow,xhi,ylow,yhi;$/;"	m	class:F_Trr
+xhi_index	bst.cxx	/^int xhi_index(NodeType *node) {$/;"	f
+xlow	foundation/Trr.h	/^  NN xlow,xhi,ylow,yhi;$/;"	m	class:F_Trr
+xlow_index	bst.cxx	/^int xlow_index(NodeType *node) {$/;"	f
+y	bst_header.h	/^double y;   \/* min merging cost in current Nearest Neighbor Graph *\/$/;"	m	struct:clustertype
+y	bst_header.h	/^int x, y;$/;"	m	class:PairType
+y	foundation/Coordinate.h	/^      NN     x,y;   \/* coordinate *\/ $/;"	m	class:F_Point
+yhi	foundation/Trr.h	/^  NN xlow,xhi,ylow,yhi;$/;"	m	class:F_Trr
+yhi_index	bst.cxx	/^int yhi_index(NodeType *node) {$/;"	f
+ylow	foundation/Trr.h	/^  NN xlow,xhi,ylow,yhi;$/;"	m	class:F_Trr
+ylow_index	bst.cxx	/^int ylow_index(NodeType *node) {$/;"	f
+~BST_DME	bst.cxx	/^BST_DME::~BST_DME ($/;"	f	class:BST_DME
+~BstTree	bst.cxx	/^BstTree::~BstTree ($/;"	f	class:BstTree
+~TmpClusterType	bst_header.h	/^  ~TmpClusterType () {$/;"	f	class:TmpClusterType
