@@ -2,14 +2,16 @@
 /*
   Released Software: Bounded-Skew Clock Tree Router 
                      Version 1.0: May 2000
+		     Version 1.3: 2002
 
    
-  Copyright (C) 1994-2000  Regents of the University of California
+  Copyright (C) 1994-2018  Regents of the University of California
 
   Computer Science Department, University of California, Los Angeles. 
+  CSE and ECE Departments, University of California, San Diego.
   
-  Author:  Prof. Andrew B. Kahng         -- abk@cs.ucla.edu 
-  Author:  Dr. Chung-Wen (Albert) Tsao   -- tsao@cs.ucla.edu
+  Author:  Prof. Andrew B. Kahng         -- abk@cs.ucla.edu   (2018: abk@eng.ucsd.edu)
+  Author:  Dr. Chung-Wen (Albert) Tsao   -- tsao@cs.ucla.edu  (2018: albert999tsao@gmail.com)
 
                         All Rights Reserved
 
